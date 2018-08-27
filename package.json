@@ -1,0 +1,24 @@
+{
+  "name": "fridayjs-site",
+  "version": "1.0.0",
+  "author": "Oleksandr Serhiienko <sigerello@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "dev": "parcel serve ./src/index.html"
+  },
+  "dependencies": {
+    "@types/react-router-dom": "^4.3.0",
+    "normalize.css": "^8.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.2",
+    "@types/react": "^16.4.11",
+    "@types/react-dom": "^16.0.7",
+    "autoprefixer": "^9.1.3",
+    "node-sass": "^4.9.3",
+    "parcel-bundler": "^1.9.7"
+  }
+}

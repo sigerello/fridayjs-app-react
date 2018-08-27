@@ -1,0 +1,235 @@
+
+$width-sm: 576px;
+$width-md: 768px;
+//$width-lg: 992px;
+//$width-xl: 1200px;
+
+$header-height: 5rem;
+$footer-height: 3rem;
+
+$logo-width: 859px;
+$logo-height: 379px;
+
+$gap: 1rem;
+
+///////////////////////////////////////////////////////////////////////////////
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  color: #79a2ae;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+body {
+  background-color: #eee;
+  color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html, body {
+  height: 100%;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+
+  @media(min-width: $width-sm) {
+    max-width: $width-sm;
+  }
+
+  @media(min-width: $width-md) {
+    max-width: $width-md;
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+.root {
+  > header {
+    width: 100%;
+    height: $header-height;
+
+    display: flex;
+    flex-direction: row;
+
+    .logo {
+      flex-shrink: 0;
+      font-size: 0;
+      background-position: left center;
+      background-image: url('./assets/logo.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      min-height: $header-height;
+      max-height: $header-height;
+      max-width: 11rem;
+      margin-right: 0.5rem;
+      margin-left: -10px;
+
+      &::after {
+        display: block;
+        content: "";
+        padding-top: $logo-height / $logo-width * 100%;
+      }
+    }
+
+    .bar {
+      flex-grow: 1;
+      border-bottom: 10px solid #000;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+.root {
+  > main {
+    flex-grow: 1;
+    display: flex;
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+.root {
+  > footer {
+    height: $footer-height;
+    .copy {
+      text-align: center;
+      line-height: $footer-height;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+.meetups-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 2rem 0;
+  min-width: 100%;
+
+  @media(min-width: $width-sm) {
+    flex-direction: row;
+    align-items: start;
+    margin: 2rem -1rem;
+  }
+
+  .meetups-list-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    margin: $gap;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s ease;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    @media(min-width: $width-sm) {
+      max-width: calc(50% - #{$gap * 2});
+    }
+
+    @media(min-width: $width-md) {
+      max-width: calc(33.33333% - #{$gap * 2});
+    }
+
+    .image {
+      display: flex;
+      align-items: center;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+
+      &::after {
+        display: block;
+        content: "";
+        padding-top: 100%;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .title {
+      font-size: 1.25rem;
+      margin-top: 0.25rem;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+.meetups-item {
+  margin: 2rem 0;
+
+  > .title {
+    margin-bottom: 1.5rem;
+  }
+
+  > .date {
+    margin-bottom: 1.5rem;
+
+    .value {
+      margin-left: 0.25rem;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+.topics-list {
+  margin-top: 3rem;
+
+  .topics-list-item {
+    display: flex;
+    flex-direction: row;
+
+    .links {
+      a + a {
+        margin-left: 0.5rem;
+      }
+    }
+
+    .image {
+      img {
+        width: 150px;
+        height: auto;
+      }
+    }
+
+    .content {
+      margin-left: 1rem;
+    }
+  }
+
+  .topics-list-item + .topics-list-item {
+    margin-top: 1.5rem;
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////
