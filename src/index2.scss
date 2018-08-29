@@ -4,9 +4,34 @@
   padding-bottom: 100%;
 }
 
+.details-overlay {
+  background-color: rgba(250, 216, 73, 0.9);
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {color: #26a0de;}
+
+///////////////////////////////////////////////////////////////////////////////
+
 header {
   height: 60px;
-  box-shadow: 0 2px 2px #cccccc;
+  box-shadow: 0 2px 2px #eee;
   display: flex;
 
   .logo {
@@ -63,24 +88,7 @@ main {
     }
 
     .more-details {
-      background-color: rgba(250, 216, 73, 0.9);
-      opacity: 0;
-      transition: opacity 0.25s ease-in-out;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      color: #fff;
-      font-size: 18px;
-      text-transform: uppercase;
-      text-shadow: 1px 1px 1px #000;
-      text-decoration: none;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @extend .details-overlay;
     }
 
     &:hover {
@@ -90,3 +98,171 @@ main {
     }
   }
 }
+
+.meetups-item {
+  .section-title {
+    margin-bottom: 1.5rem;
+  }
+
+  .section-subtitle {
+    margin-bottom: 1rem;
+  }
+
+  .date {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .topics-list {
+    width: 100%;
+    margin-bottom: 1.5rem;
+
+    border-left: 2px solid #fad849;
+
+    @media (min-width: 576px) {
+      border-left: none;
+    }
+
+    .topics-list-item {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      padding: 1rem;
+
+      @media (min-width: 576px) {
+        padding-left: 0;
+      }
+
+      .image-container {
+        width: 125px;
+        height: 125px;
+        margin-right: 1rem;
+        flex-shrink: 0;
+
+        .image {
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          @extend .square;
+        }
+      }
+
+      .content {
+        .title {
+          margin-bottom: 1.125rem;
+        }
+        .speaker {}
+        .links {
+          .separator {
+            padding: 0 0.25rem;
+          }
+        }
+      }
+    }
+  }
+
+  .photos-list {
+    .photos-list-item {
+      display: block;
+      margin-bottom: 1.5rem;
+
+      position: relative;
+      @extend .square;
+
+      .image {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        @extend .square;
+      }
+
+      .more-details {
+        @extend .details-overlay;
+      }
+
+      &:hover {
+        .more-details {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .photos-item {
+    .image {
+      img {
+        width: 800px;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+}
+
+
+///////////////////////////////////////////////////////////////////////////////
+
+body.overlay-shown {
+  overflow: hidden;
+}
+
+.overlay-backdrop,
+.overlay-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-backdrop {
+  opacity: 0.75;
+  background-color: #000;
+}
+
+.overlay-wrapper {
+  .overlay-block {
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);
+  }
+}
+
+.overlay-block {
+  .close {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+
+    width: 3rem;
+    height: 3rem;
+
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+    line-height: 2rem;
+
+    font-weight: bold;
+    color: #fff !important;
+    background-color: transparent;
+    border: none;
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 0.75;
+      //color: #fff;
+    }
+
+    &:focus {
+      outline: none;
+      //color: #fff;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////

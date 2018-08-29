@@ -4,15 +4,20 @@ import * as React from 'react'
 export const PhotosList = ({photos, match}) => {
   return (
     <div className="photos-list">
-      {photos.map((photo, i) => {
-        let style = {backgroundImage: `url(${photo})`}
+      <div className="row">
+        {photos.map((photo, i) => {
+          let style = {backgroundImage: `url(${photo})`}
 
-        return (
-          <Link to={`${match.url}/${i}`} className="photos-list-item" key={i}>
-            <div className="image" style={style}/>
-          </Link>
-        )
-      })}
+          return (
+            <div className="col-12 col-sm-6 col-md-4" key={i}>
+              <Link to={`${match.url}/${i}`} className="photos-list-item">
+                <div className="image" style={style}/>
+                <div className="more-details">Увеличить</div>
+              </Link>
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }

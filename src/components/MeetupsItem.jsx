@@ -13,21 +13,21 @@ export const MeetupsItem = ({match}) => {
 
   return (
     <div className="meetups-item">
-      <h1 className="title">{meetup.title}</h1>
-      <div className="date">
-        <span className="label">Дата:</span>
-        <span className="value">{meetup.date}</span>
+      <div className="container">
+
+        <h2 className="section-title">{meetup.title}</h2>
+        <div className="date">{meetup.date}</div>
+
+        <h3 className="section-subtitle">Доклады:</h3>
+        <TopicsList topics={meetup.topics}/>
+
+        <h3 className="section-subtitle">Фото:</h3>
+        <PhotosList photos={meetup.photos} {...{match}}/>
+
+        <Route path={`${match.url}/:photoIdx`} render={
+          ({match, location, history}) => <PhotosItem {...{match, location, history}} meetup={meetup} backUrl={currentUrl}/>
+        }/>
       </div>
-
-      <h2 className="subtitle">Доклады:</h2>
-      <TopicsList topics={meetup.topics}/>
-
-      <h2 className="subtitle">Фото:</h2>
-      <PhotosList photos={meetup.photos} {...{match}}/>
-
-      <Route path={`${match.url}/:photoIdx`} render={
-        ({match, location, history}) => <PhotosItem {...{match, location, history}} meetup={meetup} backUrl={currentUrl}/>
-      }/>
     </div>
   )
 }
