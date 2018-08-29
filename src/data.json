@@ -9,6 +9,7 @@
           "id": 1,
           "title": "Проектирование React Native приложения",
           "speaker": "Валентин Галкин",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1ByUc4mY1wqm4yZFTrcllXrf_tI3jzN9EfY21Fgu18Ck/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/490781384592893/"
         },
@@ -16,6 +17,7 @@
           "id": 2,
           "title": "Обязательные навыки JS-разработчика",
           "speaker": "Артур Пархисенко",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1w04jNQbu1cJSawQdMYyShUyL_A01zZi6KofAf0Ex268/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/490789297925435/"
         },
@@ -23,11 +25,16 @@
           "id": 3,
           "title": "Модульная система в JavaScript. Синтаксис ES5 и ES6.",
           "speaker": "Дмитрий Мурзенков",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1-f2DUUpKajKqpNszB52vfoHX8oLVm2AetkSnA9HMUQQ/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/490812877923077/"
         }
       ],
       "photos": [
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw"
@@ -42,6 +49,7 @@
           "id": 1,
           "title": "Почему Redux?",
           "speaker": "Виктория Косаренко",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1BHb2MPj9m5WKHIoRNqRglCo_-SzyYtNpgJbusa6T0lo/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/501727260164972/"
         },
@@ -49,6 +57,7 @@
           "id": 2,
           "title": "Universal applications with Next.js",
           "speaker": "Александр Казанцев",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1CWEmr4k34VuEk76c5dF2OS7Dzvz8W6l_UCZNM9zMjGI/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/501739863497045/"
         },
@@ -56,11 +65,16 @@
           "id": 3,
           "title": "React.js - настоящее и будущее",
           "speaker": "Дмитрий Костенко",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1d4f6wLEnlUY0FtE6eMWevq23MvFvJdkPzhhQtg4UKcs/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/501705163500515/"
         }
       ],
       "photos": [
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw"
@@ -75,6 +89,7 @@
           "id": 1,
           "title": "Vue.js introduction",
           "speaker": "Александр Сергиенко",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1NDKFlj1aMEBRybDlYIqqyr14EXivGVoqUgCo_Z6-S5s/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/515419275462437/"
         },
@@ -82,11 +97,16 @@
           "id": 2,
           "title": "TypeScript + Angular",
           "speaker": "Артем Галас",
+          "photo": "http://u.to/8VNOEw",
           "slides": null,
           "video": "https://www.facebook.com/fridayjs/videos/515401028797595/"
         }
       ],
       "photos": [
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw"
@@ -101,6 +121,7 @@
           "id": 1,
           "title": "React Native offline mode",
           "speaker": "Валентин Галкин",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/19dYhJ0d7NWnkXNkjq3BSNi5kF8OnweWKS299hVuFH5M/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/578579795813051/"
         },
@@ -108,11 +129,16 @@
           "id": 2,
           "title": "Building apps with Saga",
           "speaker": "Андрей Бобровский",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1h8m8CMEWjP84yYbApC_bU3v_Fbbgs1d_nOfYJKt961o/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/578579795813051/"
         }
       ],
       "photos": [
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw"
@@ -127,6 +153,7 @@
           "id": 1,
           "title": "WebAssembly, a whole new world!",
           "speaker": "Артур Пархисенко",
+          "photo": "http://u.to/8VNOEw",
           "slides": null,
           "video": "https://www.facebook.com/fridayjs/videos/603005390037158/"
         },
@@ -134,11 +161,16 @@
           "id": 2,
           "title": "Воркшоп по генераторам в JS",
           "speaker": "Александр Казанцев",
+          "photo": "http://u.to/8VNOEw",
           "slides": null,
           "video": "https://www.facebook.com/fridayjs/videos/603037853367245/"
         }
       ],
       "photos": [
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw"
@@ -153,6 +185,7 @@
           "id": 1,
           "title": "Управление внешними зависимостями в JS",
           "speaker": "Дмитрий Мурзенков",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1DkcQ96vFRbXnQK6d6wWQ9Rht2uCplDGGuSQNFOqzQZg/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/626506344353729/"
         },
@@ -160,11 +193,16 @@
           "id": 2,
           "title": "Под капотом MobX",
           "speaker": "Михаил Фисун",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1OWDN5tesJHQcrLpHesTxhlMELXf76AK_ENFuMhlDTBo/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/626528517684845/"
         }
       ],
       "photos": [
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw"
@@ -179,6 +217,7 @@
           "id": 1,
           "title": "Тестирование Front-End приложений",
           "speaker": "Алексей Бондаренко",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1yAe3_4O7ApNRwt0i0r3tojtK6iGJoDeD-VetIHOR4iY/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/650457811958582/"
         },
@@ -186,11 +225,16 @@
           "id": 2,
           "title": "Из JS-разработчика в Blockchain",
           "speaker": "Артем Зайцев и Евгений Соловей",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1J5mcW8KN99bC0u0zz3R5b5Bqd0-fRKVd3xKSsT9wkds/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/650426308628399/"
         }
       ],
       "photos": [
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw"
@@ -205,6 +249,7 @@
           "id": 1,
           "title": "Деливеринг React Native приложений конечному пользователю",
           "speaker": "Михаил Мащенко",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1rUoRe9FYVALOUqFdGeTqtP6J3dAj4krWsdw-J9jcdvw/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/691785594492470/"
         },
@@ -212,11 +257,16 @@
           "id": 2,
           "title": "Верстаем с \"ветерком\" - Tailwind CSS framework",
           "speaker": "Александр Сергиенко",
+          "photo": "http://u.to/8VNOEw",
           "slides": "https://docs.google.com/presentation/d/1EWjI2ughN0QP_mEi6N3mZW-8x2sM5c8QVr9iIr5L3lc/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/691840457820317/"
         }
       ],
       "photos": [
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
+        "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw",
         "http://u.to/SjYzEw"

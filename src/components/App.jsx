@@ -15,7 +15,7 @@ export const App = () => (
         <Switch>
           <Route path="/" exact component={MeetupsList}/>
           <Route path="/meetups" exact component={MeetupsList}/>
-          <Route path="/meetups/:id" component={MeetupsItem}/>
+          <Route path="/meetups/:meetupId" component={MeetupsItem}/>
         </Switch>
       </main>
       <footer>

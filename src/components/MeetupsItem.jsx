@@ -1,15 +1,15 @@
 import * as React from 'react'
+import {Route} from 'react-router-dom'
 import {MeetupService} from '../lib/MeetupService'
+import {TopicsList} from './TopicsList'
+import {PhotosList} from './PhotosList'
+import {PhotosItem} from './PhotosItem'
 
-export const MeetupsItem = (props) => {
+export const MeetupsItem = ({match}) => {
   let meetups = MeetupService.findAll()
-  let {id} = props.match.params
-  let meetup = meetups.find(el => el.id === parseInt(id))
-  let topics = meetup.topics
-
-  let imagesData = require('../assets/pic*.jpg')
-  let images = Object.values(imagesData)
-  let image = images[0]
+  let {meetupId} = match.params
+  let meetup = meetups.find(el => el.id === parseInt(meetupId))
+  let currentUrl = match.url
 
   return (
     <div className="meetups-item">
@@ -18,27 +18,24 @@ export const MeetupsItem = (props) => {
         <span className="label">Дата:</span>
         <span className="value">{meetup.date}</span>
       </div>
-      <div className="topics-list">
-        {topics.map(topic => (
-          <div className="topics-list-item" key={topic.id}>
-            <div className="image">
-              <img src={image} alt=""/>
-            </div>
-            <div className="content">
-              <h3 className="title">{topic.title}</h3>
-              <div className="speaker">Докладчик: {topic.speaker}</div>
 
-              {(topic.slides || topic.video) && (
-                <div className="links">
-                  {topic.slides && <a href={topic.slides}>Слайды</a>}
-                  {topic.video && <a href={topic.video}>Видео</a>}
-                </div>
-              )}
-            </div>
+      <h2 className="subtitle">Доклады:</h2>
+      <TopicsList topics={meetup.topics}/>
 
-          </div>
-        ))}
-      </div>
+      <h2 className="subtitle">Фото:</h2>
+      <PhotosList photos={meetup.photos} {...{match}}/>
+
+      <Route path={`${match.url}/:photoIdx`} render={
+        ({match, location, history}) => <PhotosItem {...{match, location, history}} meetup={meetup} backUrl={currentUrl}/>
+      }/>
     </div>
   )
 }
+
+
+
+
+
+
+
+
