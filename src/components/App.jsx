@@ -8,8 +8,9 @@ export const App = () => (
   <Router>
     <Fragment>
       <header>
-        <Link to="/" className="logo"/>
-        <div className="bar"/>
+        <div className="container">
+          <Link to="/" className="logo"/>
+        </div>
       </header>
       <main>
         <Switch>
@@ -18,9 +19,6 @@ export const App = () => (
           <Route path="/meetups/:meetupId" component={MeetupsItem}/>
         </Switch>
       </main>
-      <footer>
-        <div className="copy">&copy; {(new Date().getFullYear())} FridayJS</div>
-      </footer>
     </Fragment>
   </Router>
 )

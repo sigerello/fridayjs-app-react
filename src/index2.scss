@@ -1,0 +1,92 @@
+.square {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+}
+
+header {
+  height: 60px;
+  box-shadow: 0 2px 2px #cccccc;
+  display: flex;
+
+  .logo {
+    display: block;
+    background-position: left center;
+    background-image: url('./assets/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 150px;
+  }
+}
+
+main {
+  padding: 3rem 0;
+}
+
+.meetups-list {
+  .section-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .meetups-list-item {
+    margin-bottom: 1.5rem;
+    display: block;
+    position: relative;
+    @extend .square;
+
+    .image {
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      @extend .square;
+    }
+
+    .info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 15px;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      text-shadow: 1px 1px 1px #000;
+
+      .title {
+        font-size: 1.25rem;
+      }
+
+      .date {
+        font-size: 0.875rem;
+      }
+    }
+
+    .more-details {
+      background-color: rgba(250, 216, 73, 0.9);
+      opacity: 0;
+      transition: opacity 0.25s ease-in-out;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      color: #fff;
+      font-size: 18px;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 1px #000;
+      text-decoration: none;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &:hover {
+      .more-details {
+        opacity: 1;
+      }
+    }
+  }
+}

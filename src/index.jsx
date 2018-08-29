@@ -1,5 +1,4 @@
-import 'normalize.css'
-import './index.scss'
+import './index2.scss'
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import {App} from './components/App'
