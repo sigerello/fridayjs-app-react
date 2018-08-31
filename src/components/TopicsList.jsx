@@ -1,4 +1,5 @@
 import * as React from 'react'
+import {BgImage} from './BgImage'
 
 export const TopicsList = ({topics}) => {
   return (
@@ -6,12 +7,11 @@ export const TopicsList = ({topics}) => {
       {topics.map(topic => {
         let showLinks = topic.slides || topic.video
         let showSeparator = topic.slides && topic.video
-        let style = {backgroundImage: `url(${topic.photo})`}
 
         return (
           <div className="topics-list-item" key={topic.id}>
             <div className="image-container d-none d-sm-block">
-              <div className="image" style={style}/>
+              <BgImage src={topic.speakerPhoto}/>
             </div>
             <div className="content">
               <h4 className="title">{topic.title}</h4>

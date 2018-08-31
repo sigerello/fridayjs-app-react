@@ -1,180 +1,114 @@
-
-$width-sm: 576px;
-$width-md: 768px;
-//$width-lg: 992px;
-//$width-xl: 1200px;
-
-$header-height: 5rem;
-$footer-height: 3rem;
-
-$logo-width: 859px;
-$logo-height: 379px;
-
-$gap: 1rem;
+$animation-duration: 300ms;
+$overlay-backdrop-opacity: 0.75;
 
 ///////////////////////////////////////////////////////////////////////////////
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-h1, h2, h3 {
-  margin: 0;
-}
-
-a {
-  color: #79a2ae;
-}
-
-///////////////////////////////////////////////////////////////////////////////
-
-body {
-  background-color: #eee;
-  color: #000;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-html, body {
-  height: 100%;
-}
-
-.root {
-  display: flex;
-  flex-direction: column;
+.square {
   width: 100%;
-  min-height: 100%;
-  margin: 0 auto;
-  padding: 0 2rem;
-  background-color: #fff;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+  height: 0;
+  padding-bottom: 100%;
+}
 
-  @media(min-width: $width-sm) {
-    max-width: $width-sm;
-  }
+.details-overlay {
+  background-color: rgba(250, 216, 73, 0.9);
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  @media(min-width: $width-md) {
-    max-width: $width-md;
+a {color: #26a0de;}
+
+///////////////////////////////////////////////////////////////////////////////
+
+header {
+  height: 60px;
+  box-shadow: 0 2px 2px #eee;
+  display: flex;
+
+  .logo {
+    display: block;
+    background-position: left center;
+    background-image: url('./assets/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 150px;
   }
+}
+
+main {
+  padding: 3rem 0;
 }
 
 ///////////////////////////////////////////////////////////////////////////////
 
-.root {
-  > header {
-    width: 100%;
-    height: $header-height;
+.meetups-list {
+  .section-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
 
-    display: flex;
-    flex-direction: row;
+  .meetups-list-item {
+    margin-bottom: 1.5rem;
+    display: block;
+    position: relative;
+    @extend .square;
 
-    .logo {
-      flex-shrink: 0;
-      font-size: 0;
-      background-position: left center;
-      background-image: url('./assets/logo.png');
-      background-repeat: no-repeat;
-      background-size: contain;
-      width: 100%;
-      min-height: $header-height;
-      max-height: $header-height;
-      max-width: 11rem;
-      margin-right: 0.5rem;
-      margin-left: -10px;
+    .image-container {
+      @extend .square;
+      background-color: #efefef;
 
-      &::after {
-        display: block;
-        content: "";
-        padding-top: $logo-height / $logo-width * 100%;
+      .image {
+        @extend .square;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        opacity: 0;
+        transition: opacity $animation-duration ease-out;
       }
     }
 
-    .bar {
-      flex-grow: 1;
-      border-bottom: 10px solid #000;
-      margin-bottom: 2rem;
+    .info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 15px;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      text-shadow: 1px 1px 1px #000;
+
+      .title {
+        font-size: 1.25rem;
+      }
+
+      .date {
+        font-size: 0.875rem;
+      }
     }
-  }
-}
 
-///////////////////////////////////////////////////////////////////////////////
-
-.root {
-  > main {
-    flex-grow: 1;
-    display: flex;
-  }
-}
-
-///////////////////////////////////////////////////////////////////////////////
-
-.root {
-  > footer {
-    height: $footer-height;
-    .copy {
-      text-align: center;
-      line-height: $footer-height;
+    .more-details {
+      @extend .details-overlay;
     }
-  }
-}
-
-///////////////////////////////////////////////////////////////////////////////
-
-.meetups-list,
-.photos-list {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 2rem 0;
-  min-width: 100%;
-
-  @media(min-width: $width-sm) {
-    flex-direction: row;
-    align-items: start;
-    margin: 2rem -1rem;
-  }
-
-  .meetups-list-item,
-  .photos-list-item {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 300px;
-    margin: $gap;
-    margin-bottom: 2rem;
-    text-decoration: none;
-    color: #000;
-    transition: all 0.5s ease;
 
     &:hover {
-      opacity: 0.8;
-    }
-
-    @media(min-width: $width-sm) {
-      max-width: calc(50% - #{$gap * 2});
-    }
-
-    @media(min-width: $width-md) {
-      max-width: calc(33.33333% - #{$gap * 2});
-    }
-
-    .image {
-      display: flex;
-      align-items: center;
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-
-      &::after {
-        display: block;
-        content: "";
-        padding-top: 100%;
+      .more-details {
+        opacity: 1;
       }
-    }
-
-    .title {
-      font-size: 1.25rem;
-      margin-top: 0.25rem;
     }
   }
 }
@@ -182,95 +116,132 @@ html, body {
 ///////////////////////////////////////////////////////////////////////////////
 
 .meetups-item {
-  margin: 2rem 0;
-  width: 100%;
-
-  > .title {
+  .section-title {
     margin-bottom: 1.5rem;
   }
 
-  > .date {
-    //margin-bottom: 1rem;
-
-    .value {
-      margin-left: 0.25rem;
-    }
+  .section-subtitle {
+    margin-bottom: 1rem;
   }
 
-  > .subtitle {
-    margin-top: 3rem;
+  .date {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
   }
 }
 
 ///////////////////////////////////////////////////////////////////////////////
 
-.topics-list {
-  margin-top: 2rem;
+.meetups-item {
+  .topics-list {
+    width: 100%;
+    margin-bottom: 1.5rem;
 
-  .topics-list-item {
-    display: flex;
-    flex-direction: row;
+    border-left: 2px solid #fad849;
 
-    .image {
-      img {
-        width: 150px;
-        height: auto;
-      }
+    @media (min-width: 576px) {
+      border-left: none;
     }
+  }
+}
 
-    .content {
-      margin-left: 1rem;
+///////////////////////////////////////////////////////////////////////////////
 
-      .title {
-        font-size: 1.25rem;
+.meetups-item {
+  .topics-list {
+    .topics-list-item {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      padding: 1rem;
+
+      @media (min-width: 576px) {
+        padding-left: 0;
       }
 
-      .speaker {
-        margin-top: 1rem;
+      .image-container {
+        width: 125px;
+        height: 125px;
+        margin-right: 1rem;
+        flex-shrink: 0;
+        background-color: #efefef;
+
+        .image {
+          @extend .square;
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          opacity: 0;
+          transition: opacity $animation-duration ease-out;
+        }
       }
 
-      .links {
-        margin-top: 0.5rem;
-
-        a + a {
-          margin-left: 0.5rem;
+      .content {
+        .title {
+          margin-bottom: 1.125rem;
+        }
+        .speaker {}
+        .links {
+          .separator {
+            padding: 0 0.25rem;
+          }
         }
       }
     }
   }
-
-  .topics-list-item + .topics-list-item {
-    margin-top: 1.5rem;
-  }
 }
 
 ///////////////////////////////////////////////////////////////////////////////
 
-.photos-list {
-  flex-direction: row;
-  align-items: start;
-  margin: 1rem -1rem 2rem -1rem;
+.meetups-item {
+  .photos-list {
+    .photos-list-item {
+      display: block;
+      margin-bottom: 1.5rem;
 
-  .photos-list-item {
-    margin-bottom: $gap;
-    max-width: calc(33.33333% - #{$gap * 2});
+      position: relative;
+      @extend .square;
 
-    @media(min-width: $width-md) {
-      max-width: calc(20% - #{$gap * 2});
+      .image-container {
+        @extend .square;
+        background-color: #efefef;
+
+        .image {
+          @extend .square;
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          opacity: 0;
+          transition: opacity $animation-duration ease-out;
+        }
+      }
+
+      .more-details {
+        @extend .details-overlay;
+      }
+
+      &:hover {
+        .more-details {
+          opacity: 1;
+        }
+      }
     }
   }
 }
 
 ///////////////////////////////////////////////////////////////////////////////
 
-.photos-item {
-  .image {
-    img {
-      width: 500px;
-      max-width: 100%;
-      height: auto;
+.meetups-item {
+  .photos-item {
+    .image {
+      img {
+        width: 800px;
+        max-width: 100%;
+        height: auto;
+      }
     }
   }
+
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -293,7 +264,7 @@ body.overlay-shown {
 }
 
 .overlay-backdrop {
-  opacity: 0.75;
+  opacity: $overlay-backdrop-opacity;
   background-color: #000;
 }
 
@@ -303,35 +274,213 @@ body.overlay-shown {
   }
 }
 
-.overlay-block {
-  .close {
+.overlay-close {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+
+  width: 3rem;
+  height: 3rem;
+
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  line-height: 2rem;
+
+  font-weight: bold;
+  color: #fff !important;
+  background-color: transparent;
+  border: none;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 0.75;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+.loading {
+  height: 20px;
+  width: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  .dot {
+    animation-name: loader;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: black;
     position: absolute;
-    z-index: 1;
-    top: 0;
+    border: 2px solid white;
+
+    &:nth-child(1) {
+      background-color: #8cc759;
+      animation-delay: 0.5s;
+    }
+    &:nth-child(2) {
+      background-color: #8c6daf;
+      animation-delay: 0.4s;
+    }
+    &:nth-child(3) {
+      background-color: #ef5d74;
+      animation-delay: 0.3s;
+    }
+    &:nth-child(4) {
+      background-color: #f9a74b;
+      animation-delay: 0.2s;
+    }
+    &:nth-child(5) {
+      background-color: #60beeb;
+      animation-delay: 0.1s;
+    }
+    &:nth-child(6) {
+      background-color: #fbef5a;
+      animation-delay: 0s;
+    }
+  }
+
+  .text {
+    position: absolute;
+    top: 200%;
+    left: 0;
     right: 0;
-    cursor: pointer;
+    width: 4rem;
+    margin: auto;
 
-    width: 3rem;
-    height: 3rem;
-
-    padding: 0;
-    margin: 0;
-    font-size: 3rem;
-    line-height: 2rem;
-
-    font-weight: bold;
-    color: #fff;
-    background-color: transparent;
-    border: none;
-    opacity: 0.5;
-
-    &:hover {
-      opacity: 0.75;
+    &::after {
+      content: "Загрузка";
+      font-weight: bold;
+      animation-name: loading-text;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
     }
+  }
 
-    &:focus {
-      outline: none;
+  @keyframes loader {
+    15% {
+      transform: translateX(0);
     }
+    45% {
+      transform: translateX(230px);
+    }
+    65% {
+      transform: translateX(230px);
+    }
+    95% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes loading-text {
+    0% {
+      content: "Загрузка";
+    }
+    25% {
+      content: "Загрузка.";
+    }
+    50% {
+      content: "Загрузка..";
+    }
+    75% {
+      content: "Загрузка...";
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+.fade-in-appear,
+.fade-in-enter {
+  opacity: 0;
+}
+
+.fade-in-appear-active,
+.fade-in-enter-active {
+  opacity: 1;
+  transition: all $animation-duration ease-out;
+}
+
+.fade-in-exit,
+.fade-in-exit-active {
+  display: none;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+///// .overlay-backdrop
+.overlay-slide-appear,
+.overlay-slide-enter {
+  .overlay-backdrop {
+    opacity: 0;
+  }
+}
+
+.overlay-slide-appear-active,
+.overlay-slide-enter-active {
+  .overlay-backdrop {
+    opacity: $overlay-backdrop-opacity;
+    transition: all $animation-duration ease-out;
+  }
+}
+
+.overlay-slide-exit {
+  .overlay-backdrop {
+    opacity: $overlay-backdrop-opacity;
+  }
+}
+
+.overlay-slide-exit-active {
+  .overlay-backdrop {
+    opacity: 0;
+    transition: all $animation-duration ease-out;
+  }
+}
+
+///// .overlay-block
+.overlay-slide-appear,
+.overlay-slide-enter {
+  .overlay-block {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+}
+
+.overlay-slide-appear-active,
+.overlay-slide-enter-active {
+  .overlay-block {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all $animation-duration ease-out;
+  }
+}
+
+.overlay-slide-exit {
+  .overlay-block {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.overlay-slide-exit-active {
+  .overlay-block {
+    opacity: 0;
+    transform: translateY(-1rem);
+    transition: all $animation-duration ease-out;
   }
 }
 

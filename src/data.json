@@ -9,7 +9,7 @@
           "id": 1,
           "title": "Проектирование React Native приложения",
           "speaker": "Валентин Галкин",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/N-QhqIXgs-cX9RmOitxHc_-awS-Gw3FCeDcUUKNsLZgwy1Xxb56lBzNNWnTEiQsJaky2aEEe54qGHZ2_UKiQgjX9_vkjr2MR5EMh8weQx7Vso0kMnH-xz9bWw37dm8ktdRRpcA9VJ3XeO5cuN-qQXPt5QV4Mab5d-9a4qDgZTPoEFGOR6stvpoIKQiRsqAXLymGYxhDoSwQvTCCzcvQLKVji32J84Yrwvt3BJ-UUkZkr7ZiGeKxNkv2y0gpXBFFrJ3YlWsvmCQ_lJH7eSS9_WA5oynl95gTuaDvSYHymgARXBY54HnUSicrB9p7UNuTuntohs9WbPkxBqAZydLr_qI3wUgg7XeBFsMpQxt4DmqvGOwhPCzl3a208DGrmR8r3vrPFOTHzYwLLG9PqibwExZFwMwkP7y-4HRuEVxK_EBlOkQfiRo350yqWsMjZDP9si5m5VC_5RE--00lX8DTUiWDmjw9Zq47QYjtdaWk3C5KYHCa3mq-1ska8oWKRtZesBjT5RCK-F98Sapraakkk9xzDE0Lk7YATUIP9X5HirXtae4XHi7JhVz9GOoqvLaXSxgmd91os7zSZwix3W2g2_LvPWaQokqyq6Sve5iHTLoPd4rcWvzizTW_fFxto77sipplfzUV1ZbAFUsNx5jG5yvVk6Cm8Eec-rf6NIYkmd6WqRNDFbGmUov2f=w960-h640-no",
           "slides": "https://docs.google.com/presentation/d/1ByUc4mY1wqm4yZFTrcllXrf_tI3jzN9EfY21Fgu18Ck/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/490781384592893/"
         },
@@ -17,7 +17,7 @@
           "id": 2,
           "title": "Обязательные навыки JS-разработчика",
           "speaker": "Артур Пархисенко",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/4fRWJj27plzDP6m5D3ppb7vwesWpNxrNm5nuSbEBnqw-GTsg8BGNk2kt-Trb4iiVFo2MmdzFvhP3W69vquPXzdwNJexW4LojXup2Yh1U68yljeE2et9ZX1dx6KdzuDUkLBIVrCU3zqUhRxUWyPj55F6Gw7TT1yrdZUEF2hwcrtODmogsTXzvHUs1OSElXNRPih28NF5-FOQTP2c4YVsq9jDBk2sU9kkCImrFquFO7DKC6M-K3oQyCO9rjqQ7N-NfSfILjID11CjsHV65tBQ8ICzuTg6QB-ujES3sSBBvPHoAu6IOk3bnbBXb3hH4OJ-qiD1QAxV1EbTbtiyP_Jgz_p_yHWTNkCTsC4jiMkekB0SZLKMA6HLuKFeQAPSKyKSMOuHmfJnWMl7fxPXIwU73Cja9z2kSHJ7NmCc3761TZrhdyNXumA4MW1iONGJkjjx-OIsvEiaWgehbPwVB8oPCBNxo38Q1MUjD24TWkbGAasdv1UG7KNee1Shs7A4F5vkoNGQ0yUflYkePTzSf9XeQVCQosdHrJnrhD6yiy3E8UAtEIEnTYsPyGC0PJKUz_8E4fCQNaPgzXrmp0gMCw2flR7kF6cfGv5GDRLLvG8J0GlgCSxiz53ASv-n7ZIhfIax-feSzwSkL182mV_St38t5MTtJVakdeFK12SEhg9w3XRNyJRh2XbIBPzRd=w960-h640-no",
           "slides": "https://docs.google.com/presentation/d/1w04jNQbu1cJSawQdMYyShUyL_A01zZi6KofAf0Ex268/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/490789297925435/"
         },
@@ -25,19 +25,36 @@
           "id": 3,
           "title": "Модульная система в JavaScript. Синтаксис ES5 и ES6.",
           "speaker": "Дмитрий Мурзенков",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/3toFW83fVF8Fr_1AiPz-vYZpbbzeK3BNzeJGIG6u9hQFxqrDlBjVgwNnuvmdT27Mf38IP_Wq0RCMA1Go_ZuzFd7Y7EiJOxmHxu20WaT44G9ktxwkVXExmDh4uROWbKcR9EG37EYrNSLYP2CS63VSotVGsL7bk5jviLgFqZKbh1cmmHzFNSJd5rMNh2vujOhT-QY4jb6JcsL4skDFLGwio5B9rXUO9dTLqJoyQH1NfMD53RoXn_sv7TOGGcyWchR4lPPaTo76waxAF7HK-5eJ_yDNLCwcVhsOSp-2FWeDD1cEha8tGtW2GNbrgvzylgAGSQg3LVuPDvEKg4juOw5XgL7VFz6JlffR4zeDLWai3JFBLup7UY5X1cvQd-jhW0FyKQ5xzbzs4y26lET_KnG-Vx-pbYAh4BUkiq-ugYOvUVRPZmu5BBZzYflrx_rNvtPPSavNyrwSSDFboKUePwIYodJN3lAkjdEvy3w0ws2gJhIPfUeJ5TYOiKCU-kwdscFSQtmobPBCYbjBqSEvnbIMPfYbdLgtjj_ASuXjnb23NZwtjHVFm00nImXpgBBUpX20Ui28P941rDqmx_8DIMyXEdjAAUoHgfmY1Kfz2ISGvyKWB9XtEJVNUHWKzS5CEyIbg-MJ6X9PXhnILX5sYsDr2308a5bIY8ja3b3dX4D7cFmtYFgdCv4rfaxU=w960-h640-no",
           "slides": "https://docs.google.com/presentation/d/1-f2DUUpKajKqpNszB52vfoHX8oLVm2AetkSnA9HMUQQ/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/490812877923077/"
         }
       ],
       "photos": [
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw"
+        {
+          "id": 1,
+          "link": "https://lh3.googleusercontent.com/lS09kn_2nrNMo1ROOeEYQOJ6QMQXwATSliI0Gq-X_g9W7Yrco5-qyOh7uJynpfamkNkhzkZtajdpSlhnLmSDSJTDMbp01lmtqFmrnBpqNUCvBshwm1BoPLnWQohonKxOVgXDKlcAiwWZdJhD44qRCUYYaklUM6t22DQdahcJyU6CRcoI3XLrQPjr7xJcJKYqQKGZdK0xJfA33b4fvNh-KK4yScVhlNZP9ON9N7yP6DIkC2zuNKa-AhrB1YZDMVBy62B2e6rVK-x87kyr9IbjvQ8tVjURYdk0P5zHZc4MIoNOIbL56NvqhAu3jYEZMZGsbY5Wgf_6d9rySrhskQLHLovwBbMn_QmX34V1SwWz8OXcHydeReLkv408YNL2it81ZX01r5mITyueVviGaMHLll05_PkMvrex0R_DhMkx6NoSSbT0V5MIFHT8LbyHc7jICFbCgZxHUttclCVmmfaonMApUaOTwWfPIbbKEuwQEGSINzx6xyjwCz2gmmPfHNS63t6_N1bio7XYEUoPuK7AkQ9-g5TsaMTxy7D7lKRcHOmI36EEOQ9Q_ngy2gUKUA10JbmlJJxFouK-OmlChGWHQP-7LxkTsdJSSTwTkN09jSfUA6sfPKZo6VB2Ih--7265WeW4S7BWaWGkcUqja7MmVcuHTP0KkAaVgfAK8-5t9MwkO5OIqh-73Fk3=w960-h640-no"
+        },
+        {
+          "id": 2,
+          "link": "https://lh3.googleusercontent.com/-vnbAq_A-A-HSe4P3Vo-25tdYJG6cJ6ERokghCi_vMtaS5V5tzG4s2L2Ro-E6YbBM5lEBvC1YXwlUG6avR3CAbfj5l9G5AcHjPX24P_MmXeNojTxOzMSwZT6wl5vNaiY9jn2Ksbmg9ABgXg_M5Rt0W1CZIfK0epFMxrO4Z88cakHzJMp-trpBuP3aG9bnaxEDyU6WzFLZx3u8x1K8OIftZaYzjL78KjmDk9BnSVr2_NCeTPZIANxMzNF0novR_Qlw9tjlWbEgZoAY_ln1uxNmrigROR6uvhpCV-6O8UNwESi5hN516iZxtmm9Z83QTI_EUFK3vWa8lgVWDzrIox2pMDBBn5h7x9cwA0JmxD-SQwf65yhdVbj7QQJkz7rDwTUT6XXW5L9mKscrst_JwV0gIAKzfkiAhvBrYASTaltD-gP0d_txRtVo85O0J8EathSWnJZNN3UDEVdnyvI26Un6DUqBb9EKM6kEdxpU_yelvSYEPmkMfhXWl_wQJN5k1TLAeDXPR1jxrCFU-oy3SUOIxgfTHYFcbBs_T7XAyc7Wo-f2R9vZi_aswi3J2RjkQVNX1f0fto3oajKRHqoQMK8pxCG_O8-U3prPJr0FsSdJJcQnsYMsKt-qBXabAuD8mC7wvGGfeOWGM7IGYFwXHbgcCs5zhKAkq7LS6fa7WXq4pVmPpzOXVps9pUF=w960-h640-no"
+        },
+        {
+          "id": 3,
+          "link": "https://lh3.googleusercontent.com/IEGmJ5BFIwdI0WOI-k7TNZNI5R3MY7lAVm5e2PMCE4p5P1AWLfWrncVIn_Bs9GsIzp5LA-IBrtdPS1joiLnS9xPi3iDwGcuUwWbUZM_J5lBjgCzqVqUE2UBOQ5oqsvVbBK8Za9ATB0h8iq5S8z7RjAS2IKwAsoyrX2lMjLiR7U2utg6lv97B0m5h6SxwTOHzTEgmjp0ZYZbvAhzV_cuk5BkaDazflf07RjjfxAK0J1m2euA6loeAiTSk5iqWlCrFgYtRC4qo6_cEaVWw3JFLAXo_WgOSNTP4VJNi0WdRJi6WFQSFylLILaUsIWvpx2PJMu1d18jGOiiRMdobLG3_j8uzHVltbeXRn_jzpF55WDdyEJojYwIhAQ47cLW0yYWU-VYcs6k6wHniq9JMjDO53g1um6Xc6TEXkigIUr3v94-gpO38Hsq13SZryCiJdDoFhuvy1cCYV1FgupacYCLQiYMgIAwdqStxKGhuSaMHilJDjZfinquL9j-d9an29bubQR17dajXKv_0xzUOxq_NFRhTVccdz4M-SvJHMIxzrJV5iyjee7WP4FEezC4ek716ovENEeltIiojzXi_IWxkoqlnNcD_tI6DB4YPMsZrbcFqSvkTCMtvVO6zE6nzVfFxm3x7-OnErCRGEDj-wsrxN6sNosoXTZvTvC18VJ4PvHTSO6PTrfh0ngz1=w960-h640-no"
+        },
+        {
+          "id": 4,
+          "link": "https://lh3.googleusercontent.com/OaaXSrzw5xM72Tm3BMoQJXOD0HLOvYwNOoRev5cAIrl0USVmJUHr0UYr7GtxmgairP5Y1ALSVb0q_FTyQO1mAOqBPuzdrhaxwIwWEXvlbN8S7XaWdd1Shfqkp53C6z7pR2vE1jZWmRFJ3nyhVAD8c_3BifsoXVTD73rIIV4_AKJHhuReYs2VUZ_6kFBel4kSk8DoBKSXRgmGgDvb9xIBQYDYqeKHq0jfHjlyeiSYEU0HVtpAEmwMj3UMo2jY8sIet6GqXk311prPmGW9IOrrLg9UxuiI6zxmzx54srmPls6gwFTDPTWDBL7FQUH69elOKUyqS45GlahuFRQuz_SH2DlMEFSzuzMoUL_cL_k_ibJLrYilISFp9QAII9-wXHKD9N-gXKy_PpNrg1EgXijtHlcQ5UGmAebz2pNpWxsI79E6LcIXS9myKJ-yTGcRBVI8mtymYXuRlT7N2sMFPnvys86MevhIZYLuwePCmVPX_gf4Zr6LkYuVP-iofjqUREVhGI04E0kxI2NJH5F9QX_RjoLaljW9K66yLj4i3O6t3vDHJ1jrh-KotbBCPFrbZy439Gh_q3Hd5ERYCHq454hHQ_hI9si5UN3nfisttbgLzrWKQxOmznphiIeYVeJyE671o2sFJwhnx72la92YE7mISwd-yzbseYElnz1wRboJR1q55Qbk6xdT8gFj=w960-h640-no"
+        },
+        {
+          "id": 5,
+          "link": "https://lh3.googleusercontent.com/gWRp0c2gOI1op9SrNmQP9qOW8IfDBE3EZPK96FpvmwFSOFaKMsIGAfL7j4cb-EuLe2O6vNilssdyt9zhdB5DYgHLvx5WuwKl7pPL3q5gVCvizrMOkcgOClYt1vbjtlbdKXIZ6-fHYLCDYk9fGjLdcm5X64pfI9LglV89WY1sGIRKt-_hriUxBmsO7ZxLPIeFUkE0HJu3L9WPLlNTqyhR-nSamur3PLjOwe7TCSAqxeJNtBZEUubs-Et1nXymMG7lHhSbyIKvddlyB-OXp8aGIdQl7NQnRPubzXYDdTYI1SEYY-MhtqabDoH0OFBFMV9CUL5xObjaCXZ84My2mR6EDNmkvhUcGGckaN79I9Js1qA1aWn2X2saBgIuB_useaDd3_0BUPbAfmEoMwyrTBy0FRKFrHHkr2u9ooNsT9WL3St0PcnezcJCv6UyiVBXq4-WutVijsV0QXRrae52-5ckcTi4h6IpeJinecEP53TrHyuZ38rXzg36F9JbZnjSHbCwSbFOYDJvTbi0NaaHE4NdYHumchwz2xXg1p7bocLRjM4Z_NuZuMnhGgqKtenZesIQsrJJmvoDhoEdoo6j79Pt9qruysmaZP72dP4kgAaGghs1nptlsfGYluq1TrHMktx1TvsG2R6qGDjobzjxdP-2Ha3RO9xiEEuQX0ukOpxSO2rLYpyQNVYpOx0f=w960-h640-no"
+        },
+        {
+          "id": 6,
+          "link": "https://lh3.googleusercontent.com/oyfsE9rJ8JhLC70eq9WgTvZP4UNVYwcMwHE3DVGf1kqNbvBaa_QljATHAmpEnELJ3LTrBdmuqXGYt3O_A-aGfqcU9vxJThz37n0iBD0U2jk_ctmlD0br4O0e1E8Np_1ypGFxogBLAmHdyPtG3nbEE9YnihV108agvhsLOurEFSPLOy_EWdeS5HBTBaid-K31J99lau2QX4AIg-F2Nrwn8D_CK_yrs-3R1WZfp9eBoVqKusM54OQjffqFBAAXUzUGHHMNBgtAyctOWcfUi5PWRj0IKrSbDGTCl8c9ZWZl0aAW7Q3F9vcgKnvjN0lLpJT1EL87dvgfaZMnkkHoQ9rGx9f1RLiXVclxrkNqz37ZNMYFLWptNTbka5AcO7bfkmfP3VQdn1FjiIJDcdtccmspwyXmFGjcYrzT8GrBbDyC_GWOCU0xxmojVdQ4DTe9Fy7PnjTFTZ5oNMjT97sERq9u0WLFl3g9xtfE6SaoHKvAJCuydFAhA7eD9Lm4lIdolIiDAo2E-Vbvy-LamOI6rWaRvHD5oOGf-Dr5RQ1RAbuB_AEWUXw0cUMF-TkrvjfBCQ-jNx6vJ15iFAJeVW_XathQPDiizX2LscryER15TLNrDTHDMBDdQ5vfdZ0yfqbrPAAK7yPcNvnRK5c7Z7K-gE6flXqVPUBYAKrGglGJIVy_YlBVINspQ5-Ld4qp=w960-h640-no"
+        }
       ]
     },
     {
@@ -49,7 +66,7 @@
           "id": 1,
           "title": "Почему Redux?",
           "speaker": "Виктория Косаренко",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/od2ujSxyqc76qVaYgWHdFJU0FJvSQNPizOQRmKAP32apd8oZipaXLR0KVRbcU1iPw0PkvWyBIQfMdD3FyBc8hIqQxE6hC3ILMiKsQvIHWBWJphsmhph9V9RyKBqWI1rZb8P_SsVULok7OfR9HVhy758QSoXUv6Fi4mZH7FUj5gP8_6pFyHrTzcWJRE9BYGcuSMoGOKHA5lMGfNxJSUv1D8Hj3B2U3V7LX6LkiGCPTDSM0c6zlzbr06s6DTBJdrqRUVrRtJuD6yYBVFIBrw2xV1XUiloTbqb-ThbfpNVmy2vv_2zqdzjNo_Zv8ldtwqRRoFjJBXBcwO6BPFMqE-s2ZgCRmNrZVu2hlRroiYcMMBqIQHSRAkf5uZJ-kXWuF6xbzbjjfwtO3n3xrn-iKV_PwJIzjT6idKqbN1vyz3KGeIFz17tgs46uXxoLMz3nVVU4UkKz697CKEv40eCoSaecAXelJngrxZfqLxZREw_qyH-1oIBnKDjPbSsEBZJh9q2wqGTppfyN2Cicha68gOc_aJj5s3ca-EvUTEQqsv3sKvdfZygOUshIS2ZTm7CucvgqGLRtQmm02Ha38wrxBnLunbuvzBlswnz298flUBLuYGEmaYz8f6wz2rzW8KEW9POwfwVi5Sa8czrmMAnXX8aziK4fmXzlZwCoc-SW0fSwptfImVsq1ZKDaanK=w843-h563-no",
           "slides": "https://docs.google.com/presentation/d/1BHb2MPj9m5WKHIoRNqRglCo_-SzyYtNpgJbusa6T0lo/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/501727260164972/"
         },
@@ -57,7 +74,7 @@
           "id": 2,
           "title": "Universal applications with Next.js",
           "speaker": "Александр Казанцев",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/0ihtiHtjOPTXe6HkCHA7wpcltUWy6qr2V-J5QdaQmzb6mnrxkjHe__8IzcIvwOpsEMJflupFrhcqNzpKsuMup0ra8jfkDtMWoVCqdoK88XPkqrbjt67drS6jmOJMvgLWMC76r8Membq3wmwDcecXO5zRLBV9B5PHJtcczJTwOD1wK1StJzEnXbknTqChlWeg7RIS9bv61wysVKPmTmBWZJYDQh1nMW0QOz-MeYSlpG2PriH5R4snjJ0YpXMOrn2HeeYIJWZj4HK7mtD2bZuomivOUABwjhXSy0z9hiZ-j5STisTaQNDS_aZo4HoJw9g7WweQFnn0L6bw26N0VQ3O5FXwvcA-imNIfn1not5pfea6L8xP_72CgibTCAznSNJLDo0OkGdL2I6wwPjqDN6a4c9uE9_N_D_LgTfnqtauhak8V570A3Xn4vcsqUWK7QOMQZgb7Rq0XAP-uZenn43uZEviZDwfBWuieEreMC7zHSLBfxo9peuvV8urvCqNv7XPjrB2K248l5tPWch8D8xB4mzrMliRxcswEKQ7nwdX3WkrYRD8wCAZMHPR7Lx3wCFQHHfyrZZ8cChlT9hgjYU1Q0whtk2FPAe1bWuVGnd0E3Vlewck69we5JrNLSDJ-I7dYHdKXGHZmfU-639VZ8v9WpXzS7ej2ewe3ylQKuYZxmBgHxjMWJijKL3I=w843-h474-no",
           "slides": "https://docs.google.com/presentation/d/1CWEmr4k34VuEk76c5dF2OS7Dzvz8W6l_UCZNM9zMjGI/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/501739863497045/"
         },
@@ -65,19 +82,36 @@
           "id": 3,
           "title": "React.js - настоящее и будущее",
           "speaker": "Дмитрий Костенко",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/AvyKw25yWc7jY5x_jyfaLy7b7wN8EZyowcPOsLO4F7sXY2TuxyvxPJ9DLqAWB-nTjZqF0LmR4-DIrYcgjlCuoYyfzVfrCXUVcpg7n0BaHNda5L47XYnDA0uRaHGhov5t8rtpXlzNycYt1lF45WdbGV_udlBfu6omoON5mVau9Izw0bf_WacyUKCsYFFuDTXZSNuiGWPff8qhzOBPy4bkDxd6FcTpj9REfHTAbb-eYAxIOEZoH3Amalpn67FxmJ0lSG6K4ccWfpgWmcFLYfxRyuQTRHOdBfFEPkNNE5ON3gI8unXBTP5PzQ3Zx8zFxPdnHIetq6bA4Ooj6Nrm3drWBBly48a122JN_Vhq5TcLdH3yLiUcFoZtCpcOke_6-h8iDjItc-oY1kcRrZq8HW-hecIguzFCbGR1DinK-KCen0Z1rNNB9ByCRJzagLsPJPHyGL9uOaoHAp71znYf9P_6MzBNew_ZxZ1HE-w08VvGv8tDGFSXuETJj8B8fSoihcVjF8k4mH1UY1awmfIUtwG2tI2bwZeNnOObl62c8QSyYexxaK-bk_URePoXTKtKAQb4m9Fuim7Z1qzMzruIjV7Q_qIcKA6U39Aw359_MOk2Tf58JU0DCmp2YYUgbgQykwjT8Y48N8T2kBmvVHRYywV6nP7F6LJcgc_vKrbljCLwrocEii-ix_lEJYiM=w843-h563-no",
           "slides": "https://docs.google.com/presentation/d/1d4f6wLEnlUY0FtE6eMWevq23MvFvJdkPzhhQtg4UKcs/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/501705163500515/"
         }
       ],
       "photos": [
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw"
+        {
+          "id": 1,
+          "link": "https://lh3.googleusercontent.com/eJNQuur2v9GznXQr7VFooTwnf4krUxKm41epVXYIuxfV3TxMi8QZ_sGWyRa56bjpuv5gaBalI_OGuXdVc8Cu0vIP6nXZ8-lrBDPXd44hOG5x6p3pOVZx1LaEB2qzABobxVXoY5Rn6F12xZOiNf6EhRbwQoxRTcjbdsqBZC7uHhdfjxAQl42yRNfToLw94Zwi9groynM8jEUoPjoO0ovHtipTE-_MdcJGGFw1StfQXcAGaZG91okhCd2J2Wo5_t-JdC7-U52Hkr3ZUO6xKpvYlAdNdTHNa1pS-ZuG_uA7rIRAl7Ev38SpA2YCCi57PEnMEl4CK2nS51vKVHD5lMxAOvwDpSFDAKX9eyIgK827HrDoYNBkVy1ay_HrrST4tI3RF3LUo2XjZE2nhl2cTq6PLzPMvG2Mx8l0Z2_hqrGEGWcwpxZG4YsXKMNplXXt8BBuyd5FFs-MEA9UKJUtHnTk9r4TkH2gtOJLDKRUkug08D6OV-_pbJssAskqR25bkhdf7ZM7o-dva0vqy37C-dSj2j05pOM5IbpdHA4fHTVrM5WxZN_VxcKHzp5nF-8LeJ2n0LjBi9gW4LGZR0UQEato8NxxxewmlU5BCVGbq5d56TP5JLG1aLjwJLGQ7TUbAQOu3XCEC-kkcOpQLzuU0JQAxYbLsNE_sH9FyHgy1Hb8WF5UN3Phq5SdD4o-=w2232-h1492-no"
+        },
+        {
+          "id": 2,
+          "link": "https://lh3.googleusercontent.com/Jgaj186cI_r6LCfSI7KiGEnh-982hdq8AozgwH9cVs_oNQnqmgoVHWmUNIrXHTmR0Z6rxty8tWgWRlOt5s-7_qZSIgOLlszSls9ozIxBq6LQaS5cbmUtT2vAHyfQcKYjL1KUbazwdwCWASmEnCleyfuYwUKt4sn3fT3ZG3f4MSSb_o4RF4cb6pCAc_BaQlmyyH7J6j7Q28FASxY7-B9RmrNHPz7MKcq-kOuHd48EalqQtCtAIwPtdhCZ-IySI3OIgYlMJuS4oXOL5vEqyj5kCXAIyrYWesZrAfS8a-lYU5tHEf_Q-3BIXMA94QRY1mFQ2jGsMbG6rPyh7mG2hG5HcJU-p786qsirYw9bycLXW4ZZD4Ok0Aq5Z5gGc9-SJ_4b1vOx8tWDRqWW4xKjkeAsWxqhKR5R2QpXQ8xNX2waGyi1WW5hRGV5Kr4swAKyuTP1nHOqeDdZEI62IR2hvH4L18X2vKj-IMXYr8Zw_1esrv3Lgrt5eFfONA5HngJSQfW3h7U91rE77h649ttIhOvuZ-sVX5xmTHvxlgM8BEvfL1qrRLhLtq3cGOXUrQJ8wjvvsqV6HUg9VSy7IgVrxTB8W-L-vIinhxOQgqaMwW4amfixbu1KyaZoMFNKRELd_iwQsPxbt_JxnchaGaCGyQ-JXkRh2WbilJlraZigRlSf6zplQv0n5D7spA_l=w2232-h1492-no"
+        },
+        {
+          "id": 3,
+          "link": "https://lh3.googleusercontent.com/Fc7SqVBThrOjciD7yXJ7kr_bGVcQ9FwIrRInvyF515hZBrRCFy5MtlgU_W7jOKB955uDkas0fdT-_l6K42-DMOTXdb3flk1bZSY64YYi1hsPzTipZgq5rR_jYdTCiprlH8FsqED34RqHQU6bynyPUQVpjq9kGna3UjUl7JPtS5sFDDUPW-SQOhT9zmFUo9G79m76-KaAXEr4jy_QPql6eAc3iC7SdtQNOhFi457X48qxwu--EWHM2wckwpOQEaDh4bjK_0TbvRFdYD_DSQ5UG9yybpiFsYJnw7RsFl9hRGZoaacbsAJPUiy9QAXX7qaHfAXaQ0m2jMEGWzRxS1LflmPDsJpWHWNKdCkY-VHolQu35CVqrVuvMX7_Qoye98phQNPwM9Y4MfdcRJMsjgcQ6UkQn-YyxRMggbjzp3sq4Efm1xp74gfcztwTL9ryNHgy8--b4-qbX9BdGU_k9whg81w_J92iwcUybAXtgPlPGrW-OmgC9TaNG9NyLuUrXRD9ID5yVAklCHHw1cg1MaCjXNbcSnYSa3MZ88mBVGx2yXLKja86IeRoQJPXndPzsb9xmdrXiAVy9WojETEsQDadYFENNsIEjtEw1d46s4E0wp-QBaeVBtpsC_VvqR1JfP2pZiMQ7N8j39UmhkYD9Tf76efqxnARGEgee2CvPG8mm9VLwZ1w0LPqLvzn=w2232-h1492-no"
+        },
+        {
+          "id": 4,
+          "link": "https://lh3.googleusercontent.com/oPvwakXLTXlVjGUGP7jGiiwDsqiyK7LezfMR75p0Rj1YTqNOZBHyBFhhogyKreYvS27ehs1vaMOopJvUhNGajGBzlRmUBER1dHLPvGO29tgcDbbVbopJdchk-mT8dSNNRJkQGnKLnWc1uywXXjSBPLux8dyqzXFtmEBHl_ezSXI9Duhm7uLHY8Wox5fiskbaO43rWH3fy4q-zCmtFsC1D7vDbjAkrKVo5gbsRFOXcQxAm1qds8DrFall_9PVvL-n2ZfCFZ4oGmkspAYSPs78pgNUsv-wgIqheoxC78u6hBIy_YEcdTMWXlnPU9bEOCDnzPEWi1PdM-d9C1EfyAdINbQIQLgRYFE9hvZBYEORxuWgiA17uZbBDsZaqmGcniYbK17GHXLxn5xE1uiMg2zsdK2GgLrSJ55Usm_O4ZQhW7x5C4gWGvGYYPIvF76fWwd84ZQJcjrjKS4fO-r_UL_7iQE7hA8CuDximQIkEo4T5n1JSvBdC8meq0fPF209cipaWgBCRQQz5BOOQ-CXQDNvZtGxaZDsVhVJj_D4sAux5ivH1QZu2f5NLdVPWZreKuQWu8nPyB28wW7E5ttCkSBV6X2SsbItzvkhFDU65B7zpnW9czhcPjwCE5ab8J4dfQsK0igG4H_M90HxgqJ6JOKnQM2_hVOzUdDHwEza_OuZqEEGId3sH7fUjskr=w2232-h1492-no"
+        },
+        {
+          "id": 5,
+          "link": "https://lh3.googleusercontent.com/9zmIM9pnVAkX9MJXIc1uANpyadtJbstllSLq8aV11PMuxhb47nB5Fl9EsHAso0ANcYa1f5nXR0Y0GRrq-Qtfb8CAJ9PMDLyFzxO3HiDS0fM_C6Y35xJhpWObBGo3BY9xS2a8F7fOeyfX36hWfbxZvWLBFsxAbE-lSqg3JIrTttZdAKDxJk-98qrqTqny_rJ4vQMSGbHw4eqqmem9GzFRy3-hG0DNp7DyCBkYcE5tccd_dp_WYtpniqRbORNRReCX9iLPEkOajdfdWYTyxMXHutyrI3x8CMLlMdNDH6EGJ2BuJ5Vu9ne6CEbNYflnsi35AHiG6e1aLNFJDGiLeMBMN_4EoUobKOtYzLS8WeUIEfEO2bvRiHP41WsYTWycmVwA15rUNS-Lb4tAh_JciLHHUyP_UlTUZEY5BLCp3Qa73TLgSxQLlOQ0DntgU67HPpVHq8JNJiSts8Iak30iJvmVce_phm5Ic4_UkuRkCieREF7do_OvN5osC7M4Zn4oac1tiTnvmHr1Ad8lJE-fpmZrVXs3WpajaJyNlc2CqxAbdF-X0UegqLHJ8B6f0H_e3E6tdJlXEGnKenz9IpeIaEpo7-a9F8CsqXan8TydzDw47oJD-G-qXRdN8zCk29i6o-v7seKcc3gJxKJgsOyZa7RmNm1O7dX-owle9NyGSExL-uKG_rSqTbGcPeWg=w2232-h1492-no"
+        },
+        {
+          "id": 6,
+          "link": "https://lh3.googleusercontent.com/VR2oHCpIui1QlVsixWdL_eRtvVuSHgqLyz-v8gvOSqZNOE3_ETkiDMFa6MvowPpUVuW5y4vpovHv11SC31czzMxZ2ZLJDaeh1Y_8Ka_kdZIosP8Am8zG4W7-En2p9_wp7THqNuiIeQvuHQT3v-0QYrYeRmEcpCjOlugQtb7g0mB0YirpBV_LNH-aXl-_LdjIDwOxPrwRQPIeRBy3c2g2g5r434yjNZ7gfcMMY4Nnjm8t1dWJFRbpsnWxg6yFQd3O_qXbGJpdwUv7Qeeg6OubLMR6FatZVz3cgOXNUjysvl2_PtKGnWo2lglyusTRRfWvBi7vM7fq6izfgk-K3hMlK5Sb2dABDLNkNH_kkbDghyLoDE8zj5E_TTdBe_p4-CGRZZgZCIl403tUub7jDoPM9HRpaicQteI85P5D_K3-lVJXDBQ3JXgIeLWNG8hE5IwvqUbgX7bvXLnkoyT--uIP6IvMRsfJvOebGy5xdRfB-7Z9HmQ01zh1t-8haW-HvIK0tVkrBPp9kYvgvAgohp0MToPMR0am1MxP3IHQmDwBi_xclNW1ebjuXB31_PLM13mnLRdCR_zcPp-F9cgoK2M6jPlZHbhZwcFrnCBGOwLcgWxKx-JU6JKAWaxjpAAHtD3aCgjwAqGlNww2a-h3o8G6Kw-dQaNh-cVFkLTExFRBOMa6mX2BF0Vu4u0o=w2232-h1492-no"
+        }
       ]
     },
     {
@@ -89,7 +123,7 @@
           "id": 1,
           "title": "Vue.js introduction",
           "speaker": "Александр Сергиенко",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/D5yZpo7-ZMlkxCwnqMol9Jn9sXy3H2qKeHjhQArxDL_IWSFfRuWsJrhVyxihwkXadx4eejyItkGzt9efKaWIWnYxnO4XeehWEHCah1JM3oGuysrc9xqFaWBYLdqCV4wPQQKNjVbyhzEjXZYrHMeiknDogE8xx4c5kTmhZ85wyhh3Akdn2Qu3SzqfVwciIoy5pgNQkHA27aq6l2IM8Ccd7-bmVQPe2bn2QiazqEQFBrBKbYZzT6rPIcmmRnW3-lzyGPXGeA8wb2LF1n5xs8-IzoVt2OUPIUPkBBQsk6PaljHVmSLEPdCvA5_LgxASKFDBx93utsqex5Z4KbBbxSm-mFGc2qnkgEWSBDzwVRO_yiqIhsh7_x4JF0w_1g5jXAjbCNlZ7dJGWVdk2q9RXRP_Mg11A0K33EPKe1HV22EvUxO2KDaSwYs02BO1Hy5YuwqXufCoiw5_ZHXrFWmGOkE6gBoMDPPhHO1t7DoQXNrCCaa90FvPpibTWqv87dIYnCovhqCoVIw7t4_8Ke4a3eT_h1HkfoItPkzgL6F46tzw1REnHT8wFfmzeFswx2eFVO1REBBNcPK2kUqjCnl1ZNAg40WM6UnXCa38htQ_eLFeXxzTr_dpZZwOE7eRAp6OgqdhQgtNhdPjYChFH8qOSfoQqOE-bUSSQxtshhD-9RGElSxsFtqFz6MITwAl=w717-h479-no",
           "slides": "https://docs.google.com/presentation/d/1NDKFlj1aMEBRybDlYIqqyr14EXivGVoqUgCo_Z6-S5s/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/515419275462437/"
         },
@@ -97,19 +131,36 @@
           "id": 2,
           "title": "TypeScript + Angular",
           "speaker": "Артем Галас",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/88lWRou-HirIukwRn7h3aFJKH6D4zm3QMCNuwYh10jqns_SOXHFhcP3XWYyt6xk0MZaj1Jh2NeR5fagHJLcGyBQh-DwAjHIzAXZ-w4kAPBUU9kg3nojPz-BypKSpSLHNI9P1R5srDlVSFyEEXUiZKauQ2sA9gz2xPLQMq4nj24ZPi-gu3YmTQvCp0ELkt5hBSdkJSQQ55sYZSLSzujWIeh3zDDnPpb6vG7YFnpfc47XA4FUCYg2-8CoZp8Ssqrp8MxBSdvRxvb9bASMUoOF79DNKkB3UlbgUCjEB1ilbMzhOzDqooLm2nV5ZwctfYKL5IHT0VOfKrvrJ48y05oR8ROUomawqjUTgNCcuP5GGb7adyyafYe98vbvrQV6HDyP5LwsxHsf5wTHBBqeraOiAavmVHpbk7w7nK4G8Bsgw-Fb75vCH7smvVfoSkSsNz2OSW3WtWXppLckdasCfyBLg1mLinRZ34Bi8ZBYjyW3K-NjWjDcWs_S6kPF0THkuArCkQxObogdhAHs0s348rYyEPHwuYiWPjG256XK4DZVYF157xdblRMGEWzQlOfw38ch_FMbfbh8bAbxZRyEGFHbNA484N04TrmK3x2v-Wc2Rxdv32loRypb9Ip7iApOsXFrFxk9nXijbnH_8xNmx6bvfgf9Y587JpWlhq0eesQJD30NyM_fN-JPd-Zh0=w717-h479-no",
           "slides": null,
           "video": "https://www.facebook.com/fridayjs/videos/515401028797595/"
         }
       ],
       "photos": [
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw"
+        {
+          "id": 1,
+          "link": "https://lh3.googleusercontent.com/CAqj7iP8Zo3VGiLv6ov9-HHanQn-DPlKmACj9dm0hOBYNkzc2L69KpKd-39_5HAYBXIV4wjeICCCmcwt7IEtuQ_UZfe3gGydrnmVDIVjE-t_vvdRXgP015bOJF6Mpc8-GQ8A9chL1oiEqsuOcsPznN0ND7me5nTRFHYz0mHan_qtbDH5jNAKIvQax8egj9L6ok-dAjSY7liw4jKvWyhUtjb6gW5Eqf5rUjl9liPTsVFej0HMnDJZCeK7IuUa5b74fkBC4zptqTaQwyvRQs9I8iGSNcWu52Sf6ExwGqUDBuv71fl8x_e9lsoj5Ln3zvAH47FJCikUSzk3HPircr6DY4xPZC8QwYy1MmSjmp1WnZPXCOwHdFqn2Nzbe0O1oACpt4_ZWWFpQPjCKsangwgwEuKdZadXE92zOgN4CozfXwF8TLzEsdvLVS9qbsDbLwn3lzXZi1OZBcnGq9BonRcdiAOt3_5ktPS-5TTAT4l1IBPhcaZlINoLBNKyLbZDDmjYECs8PFbSLYJy30_8AxVd-dhxsNWbQ7ZyqRjaa2akUKzKWrfP4LT6eLLo3HPfktJfFIn-yXzEw2cqB_61SSNSurfHL78yynOBuv9zeesHQ-rukNujGlwoUuREu409Jg3NqkKMC9slNYdzPcrkyNeVxHC12-7kr3M8j-xOASciSTGRuzsjT-kK5hDQ=w2638-h1760-no"
+        },
+        {
+          "id": 2,
+          "link": "https://lh3.googleusercontent.com/CKinbCyw1MZiVhheAVB2u1Bu0UQ5w0omeipxW7jq32yKrce2sZN9ORmDETk3t_ztL5OmLmcdYbWW1uTQhKgwTnXdVLOjbKy_YrbrLuos_OOatEPeZsDkkx0gjU9YzKLK0HqvIcB2VZTodcxS1wHipNCtLvfFLw8fvtkWB0LvVfTV1C7sgfLbU9ayKu1WVwoOoraOjqzgEflEV5ax0bx6WvV8M26x21DapKnS8DQ9uljGWQTl7t6QcPzF8F88-N00So9kzcbY-N9PiiG8jVi6K_zhn71McGnUq5a95qOunrNHSs3RDQjUGq1i0dczGLQ6_u45JDm9oGHJRiDhDeYoi6UGKwqhstxU1YPZno_iludidjDw_7Lrjg6sPBeo1p137nQLlbwIrwJj0YJ7CBvjNx3PTSGM5gXad6r-cySe9chJ4lNbb_SLQ884JP-JOHAG1PKLWkruyvB8R5o0qL7gwaaeuvTQXv-sjx6SKs20ih6i5RyO70HW1kUh_GePwe0-fkwtbZxSLaNQGB0fNUFmIqfUE8KryT4eEXEaff6mjDL3lj5tFcnr3HV3APH9nrQBDHKdbvJ2FXWHXPiq-499lIJxIkgcG1KROrDVUhRGybTHYFEk8Uif4a0AX0UpSxFcXOahR7vC7NNkivJvf9jirtguPPJ4B9UCSALOn2feKayloUgYFo5Wj87X=w2638-h1760-no"
+        },
+        {
+          "id": 3,
+          "link": "https://lh3.googleusercontent.com/Cre2p2JzFCityTZVVGoquxY6ds149jUVMO7VmAFSOpYElUXT5sndvUGKHSwLRgIGJV4KXNpb0-sZUENtGcVz0b2e8OJsr2_Se0nfepHxpwnfWXt09aaqodo7NZnXDGbjvz38IPVJTVctqSLBv1xJcsBywpojfJh6apQJbubi3C0agSF1jttfHezMzlXn26L-gzTCoJqR-fHRinncmx_1M2wQ2Vq5DIX-smk74t4f86MNEHm2WGK-npUKU0Q20maKFO8hzJAlL0u5B4UdUQ4ytFGdKGp-DLCuHddEulWYuoMcBkh3ostH4vcIn18RoRGvKk4Vyn3BwkZsH1o9l5qf5OkywDMzdRumkEHBgW48zGOP_x9EMi0FZhx84KBubIOCjQcqNtNcaCizRE4609kLOusR2flz6KaZJtpxfYkrNdEWGx_3LLqCCrNaCj231wH6ddlQUDnQt94wT8PLrh8YY7-em-H8oYQQtvzLib57R5Ptg7-f7eGTTJPo0yEvvFOWRCRnhy4170ce-IEjA_ThjOvPs_e3XgfuxfhzMdT0nPgElKLgE4xdZoeVDUnVVMMX2yfIXC2k6uOvDbSfAAPd95-snHF6qQgpUX4NwwSQnXAbphC0V2FJR6kMXT43EdzhK6EQe7GmAXik6YTelIZd7kC0REplmG4ky6JlZU9dlqdYSf7DFgXt66Vj=w2638-h1760-no"
+        },
+        {
+          "id": 4,
+          "link": "https://lh3.googleusercontent.com/7T0BKFcbKcFHOgI8zCTYyVU4CdZJiBBwSPk8w8wGod2m1s4_qzJmQPiVP3FNq0a0YzQXvEp6DU0pXKk8u9gdkW-wIAvUNvoIv9exBOR3Po-LGnjisD27pt4BnRnaAvVGqWvPrUeuZMOhm5r4IYKXczmPs9uCDZkgNWij2EeZVaMCaDkMjYmvjXomblhxsH9cUslwpEWv_FtTQta7NNP4RaH5suaT0LDzZV9uJqNi9aryHGSY86-17NlPQhhwfNANVr0_Pu5c2raH_dtq0YshnIWVd_3_Kq_whEsqJ42Rx6mWEdzF1xWIgGb5hEJXg4AyG51OJ-oK0LOOy_0fVtAe6wdTz7eSI-zTSq8wwjBEfbU_ydbBEl2mfIkDeYikPVunXzFDxCuowW6sRpGLYWDg98drGKSoIwokTYWnbhMCefXhivscAUu4-C0n840Golkk38-rAmOReW-wFeOjzpVjy1w7S1fXWbpbKcS8E2yloPODWmZZMK6wk_dHap2y-G1Utzl3T3OjO9cjA9kal7O_QEnv6BtcHN0gJ1yB62UO1_zWoceuJxKI0uDOVlSb0w8nyYuX9Tvi-tHeqlb2mHPVIkpmMB4LtZ_IkNUAphcNheugCr4x9Dui7UdFs_mqTD4b7-ngWmZdxwaBufkxbWYctm6ZPvoPs8NTBcGJR9zP6pVpOqq5rIWMdIeU=w2638-h1760-no"
+        },
+        {
+          "id": 5,
+          "link": "https://lh3.googleusercontent.com/3RlZpYo5yUKwwTpjD3S84fC2QSQIb9uuLsk89rr4Xuyp_PMBwM_rrIZYGwneLfV6IJAdoBaW3W9zq2sCQAWxkb69BGQY6slVNRS-mV-Vfz_XE1wFc5VvjPMJ2Iwi4vZPJhL7jDxb-pwE5ckW8Pm1F1toZH7M-eLxaqidXVr0VdcF-LkEOJ2OZkZspkNQDXsCTKLhb2fzkPurhDzAiBP_lraqCpFEuwOiop7SqFc6njRmN3EFxcqIObjxZZ4ewfuSy4hSDQNDZDbiB_gBKaPtsBZa5sDFi8LXMAAtCpzENVIv1CVZLWeiFN7ZuYyeZvOxIsFkR3jWyuEiJj48rleHMSJ2p1iTkQUGTJh6Oa4vJRVnQB0R7vZwUekZviL06tckarGf0QyTFVKvf9RzuiIMUVMG4A-loA_ThQxiR2M7uzUGTogh5w4i43uIerXizAzzXmaKwmTt2ebKPRF9xJHSzNXn82pnNCGQM6T6EeJWjJ4EIimyYMBJgBLA3-JV8IRF2zoUET_lWighwqc6QtwUX4QaD4f5vNl1jmTUgbPlZSEyBk43maZKN8fu61v2ldiydzzti9L9aib4fZea3COaM8lauJ1IVqYDXG4lxzkH8jhjpOsIfQLDdTL6PpBT_uW0C8UkWRFR9oefrUT1mi3t_Pry4gHJ6-qNjuJs-2dZma1_ZODwVoO-wSzv=w2638-h1760-no"
+        },
+        {
+          "id": 6,
+          "link": "https://lh3.googleusercontent.com/EASLelsHnZx-VvX7GzskeT4udWLaP-qI4xQDA0z0cIj9HtXDw__3Z82y0S2CIc1586Cu3SnYU_C7eibzWp8m8L0t3ICfpDSjmVGDKRqSvy7GYY5rH-J2c3jFSJzdjEZxDdUxG5eu7VJ4YrThvt6fseClIe3SnwsCE9ozIGQbCu__tenV3fJTXDfGASrV-R1MT-TaXxOkGOdsje1DKqLpA0NbhiwGcBRnZqw7VJH96RouCLCr6NIYeJuArl-1oziRwVqDK9xqabS5TqxSmKHUzpRpanPc9sIp-ISq7D-TuCmqq6KLqGpEuk4DZ4NpokRmUrW83SaG7kBj8JpXuhBcOIcr372E-yAeAHIuAyq8h5X6AnCGdX1_fO15m3u81pijoG5W16VMM55WNbeMEbioRARZWrH9_HCFDujeK3iYX7DDnw8U4Zz1R1dgZV8G5vQE8dB1ZgK_ctbUwrIwuHNGyznDuPK9buHK6m0DLTL6L5wZOgid-_uK9HO-8aXdGW_DevflqQhrYpinCtqQr-cT7ixz51KKO62v6XFk0wdjcfiiDZegc_QiJ4rS5o6mZUIsg-eHqnObFUPEdB6_dYs-ToCTgn6_F86ovqatNKM-4gUkodbg70SEhquAP055uZzRZzBI_X7tOVqf2w_GPvoPWm5oFMbC63HU9PnwfewWM51pSUiAwheRMUKs=w2638-h1760-no"
+        }
       ]
     },
     {
@@ -121,7 +172,7 @@
           "id": 1,
           "title": "React Native offline mode",
           "speaker": "Валентин Галкин",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/FCJrNPsdHljX9M5kMvprHzcFzQusv6bsTg45yLNdXTU5KoEJhTy5Ue4G85oQYM09wbL_GzF6CUCwm4Wnny4eQzYI4xU2JVC1BsrtbsH_AQu2PKaQ8UJYn5ghTvMkg0GEwqHwVl_w8c6YUsm72RY04mC0vopBQrmJgmpAeK0NPHZ45ceG_m6L_AKmsjN_A8ft1dPq5boxUVMQaTVKwiO1jWjtAkopmWk4FSL_-1KUodb2FtcALZC5bzwox0HeWFgJaKnKRTxLiS_tTYl4hzoWQtmusbNgo4hlAUnt9fcsHKFnKxE5Hguh4SbxeDr-eLVU3YVuPZ3-Q0062b-B9hWstb7d_AuHm1FMPBa8x7ReUWNIcFIvvnBoqS4ge1LAUjEvfXKxTYQCDHRg97vgoCUeo2PZPje_ZLukJ3rK5oLlp7i2WW4vWLYaWXolJLyk561_tBmQEAFSCZpGqoCSDQOBgNz4JBpkLNn11fX54haAv_SjFWQDgkyg3xfUSkSiGdNVjdrDxkxAa4TnhJnH4iCKzK4XTFRwvKfZ191lFk5_SngS5uf5uKT3p9_CIPw4YAjVv5gZvt7cAXxwP6aNELakivo4iU7SnmnKls-IikX0-YjbvkicaiJIybarav0HVm4nyCPu426pHYudoqHIv72FbWZ-u90spxsPdxveB7eOkAJk_5DsebIDS9bK=w717-h403-no",
           "slides": "https://docs.google.com/presentation/d/19dYhJ0d7NWnkXNkjq3BSNi5kF8OnweWKS299hVuFH5M/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/578579795813051/"
         },
@@ -129,19 +180,36 @@
           "id": 2,
           "title": "Building apps with Saga",
           "speaker": "Андрей Бобровский",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/aXBTDW8OkqTPzQwBFBYqGaeaA6ivs1L5HTpUvYKLCNqAdBMz6LnQEpS77YZU6mMqEPNCIMCXT9Drywvib_uS_uLYmw0BzG5eKDyiTgtAoeFsWwTRwmAt77nx2hOL-LYhg-desfoLVu4RAa8kbFThKSDrFWy5LIt9QvpLEoeRwyPQ4m-rhRukt-vJ2lK4ywPcxqy_u64KuacTBw9eKk7EE_wbfF3e-RaLy01FJ9XglTft3B9ZmX8FcZiI-8RNQNmrSOGMDfwfm1ygGv1MilcyNeWbKo4DlP4jNq4cHagepNSVRqF7wQEqSXQVe6LHFGC8xHfTxxKTdXBspHa27aVH_Tf1SoWm_yF352sJN0V-fhpXXcpTEDn61mE4M02BAQZHZznNQ6C7MTAux0oBbatS-8S3yFnwPHSiZUf4ir3kYyPkPtPckNbfVFBOZBL_rPQBBs_i4OOUb5GjIirkBTyODN5wTr6uVr4M3j5IfuMqc9HU1gYTYlhnQmnqZdqwP3_0hUOyI06Cs2P3QKT1LxRtv4uju24_NXXh0mUVtA63Ew7i6jpLkmqxZ3eTvAuRT6SAvk8UxspT8yOJQQtXCbzjj-NGXch3hSkltTuerjfcjGUe7Sum21X93mz-HcMmiB_wu4YPkCHgSAivZgSVRszr6uzH7S0rknPKUF082RXylXFb4hgt6KszWx3g=w717-h403-no",
           "slides": "https://docs.google.com/presentation/d/1h8m8CMEWjP84yYbApC_bU3v_Fbbgs1d_nOfYJKt961o/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/578579795813051/"
         }
       ],
       "photos": [
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw"
+        {
+          "id": 1,
+          "link": "https://lh3.googleusercontent.com/HjZdOWoEc2d60JwT-23GZ2hUWa6Q9ZeGtM0xvR5KrkVY7f7BESb_8H7hxvcrDLbjFqnZ6hlaqwwFFqTel1iVSyQuTeALJRCFbdxm5V1jld5OFgTiWvC0Z4xfPo-MeWtYc_Jt_M4szP8-GRlp_mGNJNs1276vggMCSgNwSEKE2woy8qkfq4MVXjKUNB-UvAz2fsCmfAzilaepU9YfUWTZrh-16U-Ad60LxMzuUvHRLHOvSqox6XzSXF2SJQnA-qhgIqMxyo_kSl0HOx2BkDVmoKi7UzKo-rb414pzxyOJ2vtDmDRaXPukyZRnZzXrOIGZbdHlpKV4vEexeXeO0tu2Ble_7OX0yRf7Jgo4cDID4r3nhUxP6AJdXO9eTvjzIT9jY77YtVDjw47NHgby9inmR4zvxuP49h0kHohl981GR9sVOW4bLRN7oCY3vfyQdsyqqpUtsK3yOJXAGu1DpWoLTR_nzociwWljOy4FDDPeArax0MMbljruEtUWULTqWl2YCQJ1VkJ8Hf8yATi0lU-XssGKcqYcAZ8H6TJODxEoJX0JXq9sR3_nM6tPD_p6PLyobvHdTHoA9XiC0wzOE8yl1Uc9Fg4xiRn7LnRMHsK_dDFk8xDzTM5pqJ3duv8vtrst7EyL4mgPA59ucAtBVMcS0kGbi1atqM8oqT8spnvTYAWeMpuO9DU1bnBi=w2638-h1760-no"
+        },
+        {
+          "id": 2,
+          "link": "https://lh3.googleusercontent.com/eEPZfMlgBEPD0A_8KgxjQeF9EyuPYR7K5a3MA2tuqSlJac_Xx-v6O3lKP-1tCd9NDEzzNP4dfRY3FQjMCm6IJRQTz96wzQd8qT5k1TfYjYKw128a38ZFl7w3KGhRAzfpYOT82nEtXHWslw1eFonzuiw-fqD-PxXEfrdbzxjmH8YTSHib0V8ftTDAqEru3xwQ9ggTkfow8q2MDMmF3spciVfO3YwFEUU2GK5I-6OVjU6hwbMGZ3YQloX2GWwJEXAKARgy46l3D3dnvrlLtVV7cQpsTq10K9MATArHW6gTiiGqROT6FOcshkmUA9EWHDhN2eIZB3RKIAOq8OCuUEuIaEJarZxmvhm4pTEzyxvvRDjk7r1bQ0GHUKXnTbLU45AET0hv9FXHXl8v-7mxpTm-3BTW6FsbJf6EFQySGzo0bO3FI__FR7XXSMLLMGqdGC8cDtHuSmwzDrdNoLG1e8xuJww-sQC85mzGj4BGzFA2-F26pGeEczy1Gtqj_HkbL9o-JPleb9af_ARghBCLvI-CFkdL_2kXr5NB8nzRLNfn5zb9Rd0xnhPtfR4B70zUIXZEQ1eXZKggUfkDLSyBfCBcXI19lYx58ivZuRFdwk8EpNrUFeWAQbE0lymoNaCZm4DWPNdakQxzdeZVyErug9l7aqP9MFCRATxwQfqBlf1OTSN45ByGiSsrbYr9=w2638-h1760-no"
+        },
+        {
+          "id": 3,
+          "link": "https://lh3.googleusercontent.com/XH5bKNEgmPBQlhIVWZ9HQJe2-Xmm1_AS3cK70q7nZ7YpVnKInirjhUTjFuGu5Ql5wJVw4bKelTzAQ6qtkSOyw6FdG8OoOycSai9xbLc6u0hCQXymKcO_Xm88H81ooGlwbbxZAz9PKxa_5dxOUe7D4VKVYbVdLAmZNfDri_icmvw-54AHhKls6g5f11YQrlH6nRToSprdGzqdjY5dUFRd_cqYemblBO9tkfZyH0d1GdKI7TV4ZXYZWsZ3D2N57uuG0cK2CeLO9eVhBleOo0wa-YMvk8jL8YMng62goED3NJ8iW17XT95wAEWSviHI4A0K21uqZCJEBUpe1mcH7THUIDH18MtDg9mqOfurHEeB4Y419euo1X7PYchjhbBo95UYpAY6HmbrwUuK_Iy7dgfmkqjBOsN3YKyRMgLfucgdrQEbhOFlUTHt7Cs3-_Orkelvnbwl7b3BvoyjrtROZG3WH8575YcjX9do9QAGrkA9AppeVg78kgWkrPZ67LEWaXmt68kwrt5td3VkSacIiBxSbwBuMM5SaMzMW6lkapDaz9gd97k-4G_OTIZ3nmNLoYT_vdmbE8TjL0kYmOaZJsVUdYQ5IyGzFt0s_lIn7l9cQx5cOZtHXjeiQ0vs0X4oiGms8HEaE6PNz3bqOUTsPp21L6HkVSldQ-cdIP1dODt69t4mohM2hh8__VII=w2638-h1760-no"
+        },
+        {
+          "id": 4,
+          "link": "https://lh3.googleusercontent.com/5bb3Mc5UbAp4rvBJmFRj2oIsRn7yJeT2Kd8qfEH1Y7VSg3jA2cmsQXgBOMtItKdGYjChlncIcLemKYxYp8bglE3w-EPI8dwCWchKieW1mbn_5HRnAM0CS-z-stytfjd3E5nYB2QLRvcFFzQn3Ob8yVnUgf2LqRM2BqVW_9wcCyrpejg-_-jOqT4eXcJSCBisDXIOLjU7kI1Ojh9J0d2maoEb-cLSBXUtyfrsE-anUGsjnklb7cZfL0XJK9L3XnoFWJHHt0I6Q_QF-7CaPQPyptX0x6W2c8e1xyyiD52q_xsOhuIoe1HDjF9DMhDW2BhUa3ozwZ4N4UFV1VM2znYNCkZdR_1Rp8b3btFu6f_OjcxeHSbeDrXho2YXqe6M2jNBw0D9d1eVnKoV1-2d6burFE_izCOphGB3aHQhgpl45DIr9RTBTnz73snYY7a2d5iLdnGvMNR6FPdcf8GvPSSZqU5pcWoDeLw17xRGu2kjRe2WdVhV2u3iQ8uZ4IyaNh6Yr1kM4-GnKsBMSx2QOqOoyJ-QF0N2Ta73vrsLTYWvOnyiqihOhzd1wVaRIq_n1vTARLY7GIwceWlgqajYZfVK3Bbi5yUo9zR07V1IlUPrQeFzS5RAzzQkP3S4oN8m4t1Nzm6G1fBUYKNWzzcPwFUtaQ4DEqeAfQI49S607iLe-nUfzUptly48Z8wi=w2638-h1760-no"
+        },
+        {
+          "id": 5,
+          "link": "https://lh3.googleusercontent.com/kC9A4DDsVMZXxL0MvyrkvJInYgF_8dMsfbDGW72-f_ZKcFJknBuFRggStb4aryuQE7BCnbzz9SzXJK6e-deAnsLYh3NUIYrWIavbzUb7kuw0QdhPaTLTyKee2NTUBq3fuOsBFrLyolB_hqj1Uz3bGb7ewSR2fs478lNtcT9WOLuFpelzJ8N_o587ZenOngOnSqCq8AwrBItW9HMX9NuY1f7aCcjf8l-L5eV2cCLEn6EXwFpBSthm0eTvQ9lP1UhvGL_sw0ngdxuMqdSqFUmc0bT8wMlQCGI5Li-fG3ignr8KlH1TqgIo3PKWs-Vy4q5U41puyUqGMzRwg0oDnF09O7pzQNmHUFE2s0_RGoP2pSMtmYN7qvz-IBqqFxYkdc7qXNFEU1gKQNc9UAKltGRArYG_zNsxH6mUWchq-feJnhHhgaQRkrVO577HgOR-kkyNqtwOICoEH0dNmA9wd64DXOsGBUMF41rnLRdwZ5QWesa_6iJNgbYFZeAKkq33XrCqUTR5y1Oa8wcEH6SIjdSgMMx3MKnkMwMsm5rrMQwPyo6BrHfIr6bdsrE6Si9-g5KXeZhUCr2bsUTKm_R8A7U9paHZ2yBrHLFo8mBTxJnBov_KnPgNuk62w3pVB_Ej-Hmm2ZqMokveDfUqvdOgy2o_orS3ZDOhUfpcKk1MbrHoLA19TscxMuQ9_jQL=w2638-h1760-no"
+        },
+        {
+          "id": 6,
+          "link": "https://lh3.googleusercontent.com/NGkBO-eLnMNpysLhsZGDPAexpArHsh1lU1V_Gn5ZlZ5DGMtPDVi1744b7yo4STB2rkV0q_mToNbUj-BqMmk-AcvO7dmcKFIbSigpwIyv6mNX3kou_dyHtmwOXGVsJHZ_kZAddor3f7w5v2OuILkh8uFdxk-GIGIsUyOUIVm7-u6fdwovu1N3hID6pSrCYyz9VwMoANbN2Pu7gv6rqKhVyVaEp_wYOnL_qC4PDZIFX239ioDB-X4ER-O2ELKzee1JP9JcHY3CGmvqbjQKrV3rWlq0hmfBgFOMEs6OG_NfWUjCs7E2sDwKZ4jW18htdrPw8lgGOKHN6k5bOSMJbpj2uWId1rZmbVybHPACyhYWaXY-37xfhJ-2fOYN1trsaREpwGznaZ-DyGSukH_8aMWd8hl_BwzBgcSLmrckky8Ne7zwXRm0P5teZ9LBvFWWf4TD9nAdEqPnSPl_laPZlQ72guHGErPDL_zfvXGxipCFQEY_YaiFtDDYN0Rz_hTTTzcLQYgnXRc2YnFARI3czJePKUPzJeR555B7bqmuafJX-2shwrSJ7DSNaatIwKSTWx4-HFoB-wDz7RqK_5I6EM1UtJAz1gOPc0pSjCKpbstJL9yFwy4tEVElRXY--vcAr3fhBx6ti4n7XlU9hMYC36Qv9nLwJIMVWgR_ibHDLzZJUnJc9eJEexJMwZ4L=w2638-h1760-no"
+        }
       ]
     },
     {
@@ -153,7 +221,7 @@
           "id": 1,
           "title": "WebAssembly, a whole new world!",
           "speaker": "Артур Пархисенко",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/yiDFybgTwManwf3n0yB2_mNX5iixcUCuSj03hul0NT46G-paShlFE5cYd0-kJyvL8Ic4ekaaqIllz8iiaMMEUIrm6scxfFzyw32rNJhs7Wa5DX3w5zE-6btr5OGYrJO5W90CFhmIZ2ROkuRpFfshkzxwV0Z0v7jPNSLWSy-j_8aRj75Wf-n20eQ7OGRJMzuZyI1QIcbtY82gPJWUnaatdlZVRVU1oMynReMmG2lt2ST5jMhXQVlgNt-30XLQGhcH0RV2FdrJqMJoYT2qsD-6ckx_vz5hdqWAGvkFOve1mGVZ5KnUr_81EwZ0I88JaRAe5YX1YZxb85wwBmJ3jOmBktUjvaTztI8Te26EAZyrTFWi_MHITVw_tx2xlHHkx3Mns3FX0_Ud-ccw4QBofPx_R8Je1M0IZZ-cGnmIALJeZWZ_AwLuGdypa0ynkZWFM7GYp4V0418PzTWpbgJ81NKMPhWmhuNQ1X8K4EAtvqmOuRmQJcMoc3FP53Vh8LAejy9HA1tFCQE9KO-mH-Rxmd4haYEJrGBxNqOPIpIUXGa9F8ThFQu2uvnECmF4zaY26WavYsPnMwo538zKc9T9CPhA5lxSboQQ-hCHLEunqXPq3ieZ6hYRYVcWeHQ8RMoEvg_8zjH9riNITcGGE6Z1klPOmGrvvfKmGH8sY51rv-BFHIZoIbtJVCCstw2h=w717-h403-no",
           "slides": null,
           "video": "https://www.facebook.com/fridayjs/videos/603005390037158/"
         },
@@ -161,19 +229,36 @@
           "id": 2,
           "title": "Воркшоп по генераторам в JS",
           "speaker": "Александр Казанцев",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/rDQGpJD1b95HPYgp3tqwRE8bs6FSg7s5lLV4TMJpuJAyojttBt4Dh8uJGiTbhXgENe1O7a8T6Um9oenoHuHRNuR0dEYEQG1tr4N4pnfnBH9kYZPDU7-EfU57YYhlupYZXgnQ9IeVnYOLFvgAFGYCWfnuQ9PzQsO5bKIxn0d1o5DSxuMCs9p5xq34eB7C2eamfft3Kl-dFGH0mhaZFB2_KbRkHFM4F3pLCdVL57KoQ4_LbwpBeJzKhy6WouQwiVcQCadtMFuByWkt49_SYqpGwbPdP5b2xK5lonn0KBAEGtss5v8c5R7j_MazKdYLXVw1BgHWV3ytyotImY2JkiN4Ny-O7vTmwUklZUzhkMeQcD0JFbAkxZ5RHhd0QX4G5UfakRV0q0vvATCEbByG-BISO3BalRNAUTmsH94xdBgcjddKGMY3sqgqnPfk7gCikESLsyMruzAoyTgLjhs5ObxkhE-jM6Jo8zigSASbM-lDXDfvcsLrIaRi0Wn6f4RE_Aq7mDwDFBUVhfFVkDZnnKPhhnHGeKcRtTNYmeJdHbn3bBESggeqAk-E-gOeYror2EvtaOgNnRFE0umHQK-GrXvCSoexq78rPtCmpGw6cDjz-Jejh7CH1wN4XhX6jjUz_U44Z3pLZeGE1zCATakr-bcuAsvLWDz-L6U0tWWR0vcySVlnBhBzsLS-CpRP=w717-h403-no",
           "slides": null,
           "video": "https://www.facebook.com/fridayjs/videos/603037853367245/"
         }
       ],
       "photos": [
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw"
+        {
+          "id": 1,
+          "link": "https://lh3.googleusercontent.com/l5PdnGBA6CNftT9XkxHixjWUU2izA1E9DLgXEBR9Htd4TbkPA8WyAci5SCkcld_olyl5soGeSizNwq6NfE9bc2U9oHFkoeE7seFLsUt773DkwY_EVbITGeov1K6WKoylEcRja4DmuC3BpQ9dcaHkQqHigx0OyP_CdukEYK07ehV5XbYuwhr9qTsAG28_gHI3erTAckMgFFxl20zSlH1G2KTTclzBT4xn_Utu431HAhi6NcsxVejHeq2zOLYXBB6mePZ6ouj9eLBT4tgrCxKGHFROUNQCJf410RN71qtNV6rOzoDXTzhANiJq8qq7iTMI5FsfRRk1sc2TB2nj2lDCTnlzGZ6Q_2o_pafFu3ZXEeJNOInhBx5bYnJ0m1dTnDWD0wjdKFPxNS8oQd-T5DhMfK_Ao29YsQB06Pqk-k1Fltmcs8Pw_wENcW3DPLPmCfA1EQAlfAKwXnvmv03e5Y0hfIVMHTIcUQJKttbZQ45deBttAhHbD235SPF2ykXxUJh3XNyJ0ZK6v4dW-t_m-y9o5dqa5KgBy62sz-_QmudQG4Goeivu_7dVvbUBIfX3VsEooXJCiav4ELH6811kIfiuvneWf8H1KCwZFlrq1o9iRh8LrQkEzMZBdGsBDsAs5su1IiUatgx3oYKR7zm3CjhB_GaoIsKE8-UX1GAlWY5gpjPJsbio0HLmJmJN=w2638-h1760-no"
+        },
+        {
+          "id": 2,
+          "link": "https://lh3.googleusercontent.com/uvUynIfE-fv_EV1SrMQtERDz7o5x90hwSZpWVS3Cp8Frs2eEeyZW9AtanTdiEwPwnmZqpz5X2jRW921FKQD5IbJD784S1up7N1GBfIIWZlLqwjAdg-jxnZnLOysOzmuT7vZSp-Em-9hU3Vld787emjmnmwibF4_wKQdepUgM9okfX28qeq3Cdt2bJk2gkfVsGoXHYEtLRGxRIt0r4GEGNnLBkvi_LFJB5emqExxM2hHlbYS6yaZ4Wk2uO4CnZQ1VquTOKiUh--bo-BH6r_rKorbYKng0TqRZpHjjTShm5Ku0U-ZY_VTD4tqUfeDr0No3zn9lKEqQU7MjAJijEcCGOD32ApZZeoU7Kup0lNaTi70YeNU3v6cm-0r87cf-4qDqHzJZmo8HgWugooueV-QpWLHy7ZdAssEWf7Fbgp0peCxgJUpWk7QOpfqqPxtwhul5KcYlL46e1_RPg2w0ViiNWEDYY4otYZq8HK9dhReazbA-Y_0kNMxMM17jNcs0PVb6oAg3uSuhloxT7AL3644RMDnFaTtBLLzrtEpBGQtbL1Z5WG5A4Yk9m6_c4PWirp7NgWJjm1fPX1PaQtYSrVys6x24nPt6nGNB8brz-a59lG48vS5xOQvFcWj062PIPegyxw-ENEJBaztHTpo8siOKucRMX6NDb2Lu7a9xdKq1V1f-7LBF6AYzzv7-=w2638-h1760-no"
+        },
+        {
+          "id": 3,
+          "link": "https://lh3.googleusercontent.com/PXMfr22sbMS_qo2Y8HceD-8KgnDumFPXODJ1kpExwdRdvxoWYtwlusYoY1MUdDnOODal7hBRBSdA23n-EsmDkn8qR6Q_s3yNws9X7lE7jB3cghQswDtGS1APtxeg72GxOi0DXVMaohPY1jc0nQmMGauTzn8UuyOmU7TIzQ9gRU4wuoIjbcnhKdP3sbcUnJCn3ZRkQmDuuxjrm0yv9V6x9QpaBR--UfdGUyuFrN2115CFbFkdYxIZKjvuz71e7b-_WYkSSBegCPqEl9-U_U4p7w6BZ5kfls2Lb6Z_hNFISYWBTg-Bi4s6xyz-24m09ObXhtexpGyeX9PQwjYZuMxwMWGATbo6i0CPwGte6Y5LaUXvchjM6Mxk40ofJInMdK0zAGUPbwkY8M3hmpD_nKXZNjMh3LGIGbsnNLdMiWZHzC1lP-TMAjFgerJN-oZ-NzshS88wQAV0G6AudaHIFIE8G6uRbo0TjOHkM0hoxpGaI8T3-RQSo0uYqz1ko9E5b2tqyQuv70VuppMB_j9TzDkBBeT5H8MYnUI64fjJ0xw-oUbopJ3fqLvNG3MkqbPsJRcupvj8QZphdXtrRJqgpsvgjk8WQRy4Hb4UHaG6ZQqSEyCL6fwffJWOj4xcRSNol0bb7rhdiV9R6IVd4FDKd_indLghynfl-09garQjLnVGiPx4xe0y20woXh0M=w2638-h1760-no"
+        },
+        {
+          "id": 4,
+          "link": "https://lh3.googleusercontent.com/1rol9Os_hPgGU5yrBjy6FMzI7Pvv1sUiKqn27BXZpQtaf36tpzVdakPc7-SDI4MMSDr0iPOVM3gJoOe2PyVGRYpg9VmI_Rmhd5iVGpvBMeOpFsLa5CeaEOQAMYYYdXvU7abIjnIB6AW_ch8Kb9mqg3eTj6o3Q0fau-v7KClJv5mw7HEdO5l7hbclc1-kcssxPm7QdV0osa12ImgMnmCCEgdME3mEX65kSjiOas7vZkbDV-9aTC5ZYzncmJWhE49y3HDhArgXAQ7FhupOSKcifLsLdbnGFwcl_DCvJrJtXm4p_iQyY8mFL-7b5KKgZWl5BQvGA1PmIDY0LqXwAc14ccU6J7SyH0PBH1QUZMFoYXf6sJjl8SJEixb5SJTLXNu8_dUBKpSH3pRqjc3JJT-WlLv22H3L3JQifp10AIbAl0kPGn1w0Fcq1giOZGkcARwRgmuaajhKYv3btd5fOHQ6Rbo1PaWR2naibhhg8rYOczMqnXT1WKF8QiZBWw0O_5LthJ_Ptdn6VqBtOO9hI_4umnkev88ZPeZEx6hs6A8mOOU5PULJNXGpNKXsC6jDS_IwYWf1oco7vTVXZSyGQsTFL7TlU1e2nsGU_KJUD4Nok6MzhmKub4tnexwH28luUPb3nR6a_GcawVGCnN7a8obYgZQ4ZimdE09oHXRt_VnCalj8CgJ8jit9P1hj=w2638-h1760-no"
+        },
+        {
+          "id": 5,
+          "link": "https://lh3.googleusercontent.com/UsjhhReg78soNPICP7FlzqE2ukvIWX9_6rn6zUydasu6hCAs5-YxSt2mjr-RJNz2HWmVdcPtdte5Hlq5WLSlzIyIurHkUzA8JquL3G_E0qiJueMKpxBdp6mUPeinbOJ5izl0jxaqSANbauWIVOmNCjJhpz2XjoD100g25CP2MQBxQB0TA62sg6vmj4phoArG4yOcRq73ku3iD8TTtyRDEaDIT_q8tp17PAGcbYycjaP1cf3iFvbLCk0AKe-azLsTu39C7gD9GYqZafWg0sO_UAe0ShqLI60uNtF27cXxy_eiTK3nhNMd9Cyeft7mbR6SVWp3OfvQejfRXDaANOZMhsoQNXAbkxsZF0D0VHqYodAVWHFdJ2XZrDCQ403aD_FofwVPhWyWRJK2VR7kT4GcXaVLI-Yi5tYaKDW7Ux7TlzDZwC1IlbpKcyEy1JHGCclpGge7Rhe5ozbE9vtLSAogKEjvcdTWGu7WH37qEao8SbE3qpOMx0w1u6xFCk05aRoEi98x_yvpxnYSGE545B5Fbj5UzeLt7pCE2zRTjUXqONLs7ZiFlCPXlRFhsZ-XpteOGwI0quaLt6aKNTTCpNJVx-yFbbPYkUfFHmyxa6HQH_owMDdq5UGh3CIjL58JUnpGZyXP_5n8I8MyKBDhDczlLf7CiTITAM2-vee-n5noDm0MoBsViguvw7wy=w2638-h1760-no"
+        },
+        {
+          "id": 6,
+          "link": "https://lh3.googleusercontent.com/JaQ-xd8koEpeqyDqlDfkAfUn_eFpUwrhOTT5Fso4c7L-ZRYpg3ZW-T4Bw6pCN7T9BeDc1TEKV5DrUmR3eyJ38vyuzlEmcLB0HSPO_nZUyc7XRHjPq4b5VhzBWW1Z97UrYYTSU7OwZbltnzKsXjXeveAmz4C8JuqlCRSVOBmJvlsn7XAt2A1LDRlFhrlq5ULslUoety8VXFLtQdyWhtkzuB6ETwbwMJtQxebrTaUarhzMxch6Ix3FK3L2pdV3560NWFMCmiShSEoecjZIj7mIJgNWuYE9JU7h5GYP4xbhCR4s0gk8qFHquNnQnyfRn5dsumAVx5xR9Rs4wXhHtcZbC_I1v4igD8_cNCENmMZnVkigJGWF9wcORcVe_ttRAw_VBx93z-RSxIHLygWafsSC1LgxtW-xzw_TPW0S8EOd4Px7EV0yf_fWLd9ZdFKEYQT3fID0d_m06Slc7Yv-rGhy_0J_lShKiRyWCQrC9iugwiD2aNgjdd2t6t-eLClGICEplaeMPmVOfJ7v6fvo4Uc5d4PuauUMiA6AWu-PJjeu91xhUZbsQr1DSZO8Ekhg79-oHzyy7DLEa75w6fC8RwjVS8pe3FKzEuNsGvrQ2lQKWfQfxo_XSKHgYH6OOTwLU49EloxtH3ebDMguVQxBNwTpPpAr9e76K6ZZ-gDzTNoTmCL2J3Itg93bmJ4U=w2638-h1760-no"
+        }
       ]
     },
     {
@@ -185,7 +270,7 @@
           "id": 1,
           "title": "Управление внешними зависимостями в JS",
           "speaker": "Дмитрий Мурзенков",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/u5bjdPbwnqknP9wM4wbQF1sx9kBJkDs4g16zsCv3iG6bsA1JOXao82j94dJ2B2HICh2R3T0l4YDdIkHMoeA5m_zSkTwCMczI6V8NMXHmw7puNE8-c1_cSsq-T47eGKIw39qZcu3WqnAm1yoy0lgRkEPIKi2sSo29JO7R1zK6c19NM4Ejz3cb-79xr9k_4dBkLsG8pKF7yTkl43UUDMMSVa_QwSOqueyuQNBtHTWhVPMOI7NnMSdA9sCRZm6r7JdK-oaq0ZLYScMtqZ2kzHo6XCon9RYUnfv-Y-V8oybALKSveUJYufg14pnW00lDndibLJ8HYnl0MbleTfC9gL6_h_UUf2RMNVpDoQy4LG_Gts2hCxuuji3qkYN8nFtbbvH4jzRKv3q7N7RSK_xSUR9VT-lOJ_pTCuC5dfcOJ8iQLqUiFxQdDEfIFQeLUhwj17jGtAhs47w0lxz1vxJAz-XHjakyb8wUr14m8Y-PahsVJhefakTuwmPp6bd4av2cvzoBbQBzHeYmUAOI10JrE6DkNQOqtni1A0c8kmkF7rlBXDgNgmkIbEaj_lsesbOrKNrwZiYFZsyuoeLsDPMTnPC4PCq9cHsgwlGySejTzMVd0tV1nse4x6z3OtfIboA4vw4EsYRn5_fdwpeeCjbAKuK2PojiLTnr6rQkeCIYeUn8NBI-m4e0SRcuF92G=w717-h403-no",
           "slides": "https://docs.google.com/presentation/d/1DkcQ96vFRbXnQK6d6wWQ9Rht2uCplDGGuSQNFOqzQZg/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/626506344353729/"
         },
@@ -193,19 +278,36 @@
           "id": 2,
           "title": "Под капотом MobX",
           "speaker": "Михаил Фисун",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/QbbfZY6-GOmT0pfvwrhsD9nkWn4YF6LaRZ5HDN1CFZoCABfukhJUjTerumRgebtqc_B0dcKxR4LqB1Y9IAf7CX6EXZhXDjcaaFKJaoXdwppY9wkPtjmFinzm3QpPf5FKq_Qvp56fI2S9a4iX-EdfWMBuiD0qkNGah1dx47xRq0YCMvHXQY8BUu6EL1NcnFongQ6fBFfetx0-AtWhIAK1yExK9Hz7tpwmWSwH_EVSrvn9BZ-Og9ZozbNXi09IYaw1seYV8jIeflbQDrlIXMrY1rmnWcaiyh6mkK2CdrX5aUl1EUE92BoEin7ew4jrCtdt4M6gsuoJB5xYXs1dPiUVQTzzvPqr3iPLIFHV44StFdj_9sFnfk0xWwXfs-SL7538HhWI8kk4WBtrnBeNLh9vfsyu82z2Av9uhhyReOIZkoZG4yxlMh359imUCn1DxIupiN8aLZZLLUQguMLoPoqwfbkVfGYKjYP-aMX2nQ-5Ks6us-IkouY1GM8SVtthZHn6X-Aev24yTdY3LzUU5O2Swu4uWqxKW1O3o8Gn7kqTNL-lhwtcojcfHUbreaO-SV2u4DmtwxP82ob1xs_bglhPDDSltcJVoofEM39N-b_RL04GtPzT-0Q_BPor8fRT4HJgHGchAO4XDaEQrv_ZjdMATIGzbz9R8GBh-fckycFOV4l3MXIZPZQDqK7O=w717-h402-no",
           "slides": "https://docs.google.com/presentation/d/1OWDN5tesJHQcrLpHesTxhlMELXf76AK_ENFuMhlDTBo/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/626528517684845/"
         }
       ],
       "photos": [
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw"
+        {
+          "id": 1,
+          "link": "https://lh3.googleusercontent.com/bwVNGIUKnnW8Jx8qy5nH2qTkYbrmYKimrYy8Ynjp8jl8m7iXudALBBKAyk1udIYHgiJYr4V9TQlMYBCKYulAawcNBGYsk6ZxLkyy86RnTpe37F3zRJAEYMe56Pl_USrK2Tw2piZRTE0GWzJ2AYcMjK99xs5FYUbROycq5pzl2Kl3TZoDodxlFYolDhO15_gt5uBdNOLZxINN8Nd2_uMAMLwljj5cw6TNp2PmyaUc0NZNNaOJIeyTluQIx5vL9npTtqKSCAbYps6MwnGC-TpOnryebX7K8SB1XtssRfAII-NNO6P467m1ryEYOniKqBKgDCtCnWNloktVGkAZYYsk9tv05ZqWWQaWmeWOKc80gIFJBYz1URw0tS72IUMAkZg2afiG1UjcQiau-G5VFlm2ktfS6dkgdlbsyqHcGAXHkndUd6pdH6ljs-AEFxlIHx5UsZBSdjmmrhWdtWgGiXO_eGsUe2YdZzkQQMTcQGZn6pa7pIAsbOWAuqWM3yOuWZkAIA7N-hU-WlTj3g2A4QlBMJ2wHHPgmp1wPuLbnOd-ZFbmOjEwJ1OtzshotMUACq5UPytMcI5ZrJK5SFjs-hsWRPDpj7Ki2LiZhOvF-gLIUrZZW0wnMvBYFpiO3anneiz9Ih7gpWeZ11PaYM5bpNSsda7mxZY8uMrMRKB9YasRpJK_UqKRZqazmHQt=w2638-h1760-no"
+        },
+        {
+          "id": 2,
+          "link": "https://lh3.googleusercontent.com/cD0cKIeBuN4zFNPJKWJIOjVFa3sfEaceHR_8CzyLn-v9lkU34HMMxPj1K711FFteP3mQiG8557kyijhnAO-XbiDn4wPUMksX5JwsUCkvsA7gxq6VuYz3gniuNUOTh3RKKoPC-OJ8QwSutGy2imF5MTnrCsi5yA0p2MGb93hfFqEhECvHoTugjTrJLkw488xkgzkRSnwMAg8rdplvJQQIU5aFWn5KGfondOWC-BBxiXrlQ9kDeLnOUjedNRSHEO3iGjjjghhDbktsDX7uHLq6dMtXIrOZXvAKdiUluS415KWtX8lEahxxrd4mabf-uXuoJ5TDccRJM6F2xLieV3N_eW6ETs1ILycJVtW00BvGtSwas0OCw2QjAw5P3N7xgCZBYCOuiDoXDAFSCCKrbYgNRywL9ZgPoWgcaSTSdmAUHb2NKaYFA177PgZ0JpK7tPZDlvdu3VK9GBTWpHRUJuLkhoMMqFeKjfb5gC3q-jyC-45yXaFzX2tZsiXWTJFowTyW89g7ghMNWapHrntHARaIFN179rxkaVb-Zc23pxHbWJzW7A1Zy0QgAPKE_7-UNZ7SMCaVvA2eC_6KpGfilZEtVSMmP8-fbbFmPA5eVkRcBCcVh-YTOIv_ES0Ey4G_kgE_HIl07bfUX1Ih28dJ_F84lpomfd4830XeeQhePafV32h3kRm4fMx7T1Kq=w2064-h1378-no"
+        },
+        {
+          "id": 3,
+          "link": "https://lh3.googleusercontent.com/s7PGX6wrLhuwuR56zQO35C1o1gSKRmARKKOZzU8SQoKLh-sk_Ce3Ho83ikUBXx-aQDMwuVhm0GEBpNVnB1GKFk-U7L1HlhPFPzYyIPvn81j4xSnSmR1P5zaqXqhpkyQHo77gim9k-UsLRvdQAFw91cF6M7oS8dnX0pcAXEkpaaiHdO1Xv_WFyLnJ-OLBhhKsWhKp8W2xpYQSg6PGqYRutL9iBD4IYwFV2gL9gl4PVE_Pz05CtPKp6FYJeDv75Qz4MtHM8xVrsQJbeeA2isscDUEzg3TwOWQXdWNXU2lssIxBgirGglPSPZePIX3Sj0SJbM3kpnpncxRWj39UbBmdO2hnRTC95uw-c6B-CF8b5QLlshxxAXmrREB6_8b0-POwPhRkGji6IwGM4rJLhnQUeviqKKuyZjWwMzpDRqPjZs3aeE6xjJBGhJQp6rrGyK0y4B4SBqMAAVUlh0FwprCDt5AXMg_iFTX-582INGncCS_JNtj6Ai1QmgS3YggB9tc0YQRHbeqbht8TcRD-Ihbz8JpWuhXbPb5ndbEWDYO2ROZuk4xN2QtRbxIZH1x-rU2e_Uutid3scvATuv1xJOj8oAZFTa-KklfUwgCjyLp_cwmcyjHDZtWyi9nHXJQW10TyZbdNinKwkV_m3VxovLmE03B052OZSahU0Kun1aPRmGr1x3IKv2UzbJv0=w2064-h1378-no"
+        },
+        {
+          "id": 4,
+          "link": "https://lh3.googleusercontent.com/QSh_KN5noN9Od9HiOJN6leGm80agxRQVS_euobuZYyrxP3gSFm92PokUwGw-D6UPyKtO3-XCuWGUE4zXYl6DvmBSOeeDFq7dzstTUAZUPts7FtiCKBbzXH5AZixmV3l5yc_XUbXJw7IMrFl3yBy7Uf9GQUadE0EkZa0eJfbL6NOPkBRkHl02HMW6oHN7lePYwN5mhgnrvdVC7OmYyWinCWzES7gLhgfUJ4NoEx1tRsL7HR82uo6ayh7cYYvO2vrelHH2GMI-RFoD82dQbvI2dLxZU1kzO8JVyk0hYRmuPVeYmLO5g7k4bY9SYxlJYvIZ2l4sRReGLOnAfMClEW2ePzYV-rP8sLqJwpO7MDXOT_I_H-Y69bB8SePxHI1aqw-vpKcqZlt4qmC6BHXp9H4MBtUYs-NnXBguqHVVZDQl-avpFEXaakhsWRSz2AAbv0M5SMmRJGkFZniHU6Bwv0Uf_gtsmb1LvpP4wfJF2T7O9dhRPrC5e9YPtwWQngmG4_KKMt1nEp3ks_24RBsxfniBohC3fBD5peWTaLBoI2FAY33iA1hj86CmnG0AoTSG8g3m8yhFCxVVN_kWJZd4rssQvODT0FSNw9tz2q9Pcf58XNAUaDi7ZZEwzTRNo-xfr9lQhG0abjPQjB1I9GjQk6WmKjBEwhUbruHnh-Yg7UMlKHS8mP-VVZf2ZQbS=w2064-h1378-no"
+        },
+        {
+          "id": 5,
+          "link": "https://lh3.googleusercontent.com/6XlLD5V-WGynN0cvyPYXsUiPn_1JfWblBWTi4IUfzy-OPvsAiLSwf_8Jsn2EDzgoGCeawJRw41YGiOfoNZ-K7aQF4fTo5-XFpYlZPK031f_jU2aNi49E6dIgTxN0QJG3GH0n9ta0zMmf761DvtCZ7BqFLngrtK_jjPdACp9a6Mlg9NYbUhZqc73Jz6lrhpZpGjCk0lv-47wi7pIJFnFiLVzjCB071d0lWwFZ-6Ft7Ff-gybhsfwbKuuaVRnMdhuDc7jNveLFhFMtmXiERQVlu7mk6vvqGToNzxlv0U0I9xqtaYTj5Pw7EPIYoWy2iAAuJa3N2PDaKeJAVAxjJ-zbBtUur7oKrEQUMydnymB8Mf0GfUsOe0V3JuhGmdJjC6NnOhHXlopOmVyc3sw5n7CMWdpB06i4PxV4aQ1r5uuGyh5U1yqKn2VfvR1QPFoEzhmvw19mgbt1yZHwHPsPXyI2-WGOW6AKKFBXIyFmx68EJ1yD-HdIuJVVIMo9nCrssNtESYyj3U7JymgeEvgtdfeSLWb3Y0DrIKGcGQm2C_xhQelqChI84bO-_LTHZ_-JF_B6DEokA4asWAW6xg6BrzO8WsqE3EViWqDIQJkXFVwvLHXUSbFfCPVgU0vplfvXV9EOkm6ztEw8Wl9dw_OxrV_pVgmwrpLk8x_EFnsz8_0HbGawummhJEe1GppV=w2064-h1378-no"
+        },
+        {
+          "id": 6,
+          "link": "https://lh3.googleusercontent.com/H0vjtCfta2Bj9OlwaVumxe8dsfDrHJQ9_5QeEbxm6YhpiS31VN8YP76H3No14NtM_EmGIofpVIwcMoj-YJucxbyKK7BK2q0SqJ4_oCkYYBEwEu5zwwgiGxb1BPuwHJfk-qR4yTZ7dF8Ttz_QvjTXyP3jFolM12D6isPC-mmBufRj1eLms4lY3UtbtxWIjCnl2iIHDBxI_yxzzklm0tbO1RPQr4GDf8KntF9XYZdYxswwBYlxYs2MnUPNydEE4uV5mo5fyKc9Go3sx594Wwh6mEELpfCfrm10C0Man9UMgdOyTVFNkQ6OJRVMLQSPkfD62ELycg7BzkUb2cwfp2HCHX5GxpdVwyIXixAg3zCftZsxWvB8dcII_sjEGnYqhbz0gbtWPQmjKfUdwa9mEAciXzjtv2ADSjuvvepMtlV9aE0qwDWxrw4N3_Md41IJC2oXb6leoKvXj9o-4nxIkoCHcHVc_vPy_o1URJSKHCIVLofwFzk2998xaZzn3NleHwHyH8U9RzGLnJu1a6kkMMN6rWJT3Of7gBQFw4YwH1xUkXBL5A0G_wk2uD73VV8BWy4e2DH47gAGGRbOcpUlpEi5RPnunSDYaUYpGhxw2z9qhfsWZNpoRZfHL74MwT-jdDNCcYS-y4b3KBzam6sTYf_vvhXmLuDLakseRJjlhoMIUBBNmc5l_dzQ16kI=w2064-h1378-no"
+        }
       ]
     },
     {
@@ -217,7 +319,7 @@
           "id": 1,
           "title": "Тестирование Front-End приложений",
           "speaker": "Алексей Бондаренко",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/CeQdjF5WJMZuRnhtLblxV4urmzTuf-ooWVRV3keWannk94zMZKh0eRz-f2tdxm3Rog3F3-JAJPCD-YylNu-4uIbAOj5Csr8kt0-cU-sVrfdFNw1cTm4lDfMgh7T1rgHWLy1dI38RLpK8cSPF273_bclJEnPrEK5NqAJzc0_UjN2gOut_gE6F3vTP3NNB3JBlI0QUaFwrlgLjzp7IaTCJ2mtdMhot0WD3EmfND-s7iXitWImk7xpvgyCLJ9zfnXEfDIsWV8HS8owBtcJzMg-QM1Bew0Nqb5yKO-n62YiZMTm6DtiaHa7vC_1yh29W3MEcxh6ihcjJok5GCkK88QIq0XehrbydjsgAo7vydbnYxflDTW76m7R4eAOGNKQ4XHPol6m0dqGcjND9G3byz-mzekQ0V8WGpx5HKR2WQ7F8GLKYTXKq1XkQMp_FiK2oIQ4hI_nU-Uh7zeQjiYMUyNJntaudJrO1RDrPNI9Ir05SdFDPMm9eT4E2lXVkimdw49x6FZOr8oHamgr45tCkPefHfVMg_egMuKhsTNUS_LBirmp9NRqTmfFeSlty5j88QIhxjdTssRtUP1xwpJI_daEj4zGlHZdfeOHPFhYrRazXIO0sOkABxLdyLKwxqKLtZdeXVXU0re2d0xRoLnqaDuJNykSExJ9EEkhUUMVS_hjKdyD90MflC3Bpqm52=w717-h403-no",
           "slides": "https://docs.google.com/presentation/d/1yAe3_4O7ApNRwt0i0r3tojtK6iGJoDeD-VetIHOR4iY/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/650457811958582/"
         },
@@ -225,19 +327,36 @@
           "id": 2,
           "title": "Из JS-разработчика в Blockchain",
           "speaker": "Артем Зайцев и Евгений Соловей",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/Wvx92qbSf-Y-ZuTV0q3hzkOv55cRNauYRN4UJiOtnQnEfxjJ05A_hXGg54Jdl2xCoI1NOqzk6IUgAWl3d6KRqNOpvZPs0Cpaf4m9DWIGKrcXhfiYrYgOGbGC6kx-8oHFp672GwXt5e7EurGJcrIYZNq08DNfntI1VCN_dvLteZNo8dhDaawV32picIRn9TILTQoFbh-hcfui6INg0yhHazIPwyKfieHaOhSGX8y1iVg9AdAu4EH1VbP-SPvKLQYrfVSBjgjUp2jkjHRVDDIJwFD8rUCpJTB31uW6ONMmO-VP1rlKEjlYZ4igOrKAFhPB3AlpGn75V2L8azhHj7SZdjPRNvGrax_2O2cLKCIlib2A8l_s0l3rXnHPFNhKQpfGn62PdUG5PyIVW4emTKrAQA030R2gvgTN_9qa3qPK9WOfd-Ah3nt3vvZeolic11O6S6KupRllng4oofZRONwqgP5RuPY6cdAg9w9Q0bumUq3lFrD-PgPrwWFbDz4lNfCYBlU7JYj0iD1OJfD4qWCHOJEdS2u4Ywvy3YV8vOVCL-oPiACXj-U1xV8wAs81qJb3mMWYEBKbvC3F2g88jLC73uCEksXSyJCTxdcCEv9c_Y9hxubrwGkZRrriES8cqh1OlTjA-v8mSzXWWKz5tkOq1E57gZQm7_S5rrjvW220xQYeldu8OaIHgWVx=w717-h403-no",
           "slides": "https://docs.google.com/presentation/d/1J5mcW8KN99bC0u0zz3R5b5Bqd0-fRKVd3xKSsT9wkds/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/650426308628399/"
         }
       ],
       "photos": [
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw"
+        {
+          "id": 1,
+          "link": "https://lh3.googleusercontent.com/e6YstOPQ8jFxhXhWO1_hFDk-UFO8z2ObQ9kzSBvTZikvcdcI7oXPwxJzDu_n3ljr4SSaa5m9FHmKsRs4AsuCf_M4C8sKOJ3iQrU_a_1AGCFaRgr0NTr5-YoJxSLumDQGXOvoUjZE0F1WQ4J4ytlq2P0B20tB6xERozmrM9IIpFU6X1mwjw2ahydD0qOJFvfxlHjZ-egEyQ41KD6rv88KpwGaXJlIWsTpMP6lnFhJhKML3F68j0a_mErrBTspYdfR4SmcyYHIQEoI90kmMiUNLHTkuqdlyEF2OyHXo5q9BHouRrEaVC-Smdo_Sk_akDjF4D6M6DZrOGciWeM8gDOXaOdQsLA4-hBayNATGj0WCguHa0HS3U5D7DJG53aOkbMdNZYg4ESYPvpDzRpkmjGTDNeW-4vGy-Qsrx3umBuh0_kKHbPG7t2yM-Cqj_Pr75kM1U5AYTgFi_sKZ-8Dc4wSTj1oM_fM2xpWU0S0s1LgTksjr8ROoeYsRU5ujDKxQNvpaQS39SRhH2vRXR5DXbKPp4qFVJlqrGRAvHv-M_nI5uM7Kbs37N5StjkmJFddJEkOEyQvwzbsN9cozqylyyhX45nZ5RIJWoDczqO14aQk7FXNNY2WnJQaI79ezGYW_w_9xz3MQFqWXUqMsY_yRprfhG188H--cqh1PwLHFmifdoxf73Z4ufdwt2W_=w960-h640-no"
+        },
+        {
+          "id": 2,
+          "link": "https://lh3.googleusercontent.com/w1YZ6Yjuitrvi7FvorT4bsvMGY6HvZp4ses3uY_h6prcSa9e0WPNHPxbHogUCO-wzXWjGFQZLiUP6JTHJpjipL8NoJBq5__bX2S2lKLBJxKTfQIVWk4memZunaFV1kbDP27kaOEcl0T05Xnt1PDWtQ5VxRgOc4rZrJVHIOZxbPqCtsIQ3clGPF7DNb6gZMQ636t9jhkhSlnis9Ywftk5XVHxXGZcESm1Tp7GYQhvq4RBGX-vaty_GyZII9bBxTgMQjgnw6I5xt7FK0Ehso3AQWJ33_nvinZtpsC8iiQA-O_psy227Ra8kCKBuo5Fr0wpe1FYDxjoqJT_rSWAhVHgDFg5LyHo1NdVmlZXff_8KS7JBWdM0nVBkQCdeuyX0zfmTDpDQ7NOABzKXExiXVkc9cPyaHgavpY28OKTEvmMRBVqX4CLYBg5wQn6l7H4V9SuMG-YsV3cl5uQC24Tg3SROd4xyZiQRaJ-5XNHwxpXa3pq1j5H0IjY4zOdapd5YoFzZQq5ygwP_bVO03H3LFvav8B47adhXQelJFR02anPmKShc5WRjUR5yS1_mjLTeD93YCtr103rhaGeVIg4YiXD6FBSKvmvkkwmY_qwXlkOcnATmvV1jwsrfRVmma1Qz1LYRvxtwKkob5tROtqQhHoWAn_OOL-OKquLwLCWIBn4KFdUVyQNEzODWXkg=w960-h640-no"
+        },
+        {
+          "id": 3,
+          "link": "https://lh3.googleusercontent.com/GTb2tJE-U7BglrNr20m_jYy-WcFnInU40lRLaUbJuMaaEorA5oM6O-OB42wqUii8Y8C0RHyDxafjd2XGjWeApvIsd26bBuM6FHJVGU2xSrrGqKBV7EDeds1rrEUXeBDPll_UzmeQGHS_LTcckNntQCF0uuqwGsmSwesuYHjU0VSQOh0RTJkirGqv4UkSsRLpnvuSTaAQWY6YLvFR-BqsT-g3awpcoZsFy4ZTJ-hGY8l1Sn3_gL0QDo28haIa2cHnOx8pbTsfMaXrQxPnHkw02nlF8DjwEXLt35hzwajPgvOcrsLMdFo8xSTPZ3gURHIS03DoZmTp2R8JwCn5CLFkvyc6kHIYgXnBsXgDwqlR_n-8zWyEUgMYoFXEDZfEkPvemw7JxpxcQZye3ARsd-ENsgah82OV8Ozqw92gowkoujUlDhgq1WVZeBZwujG4YQ1Cu9Exx-yaRb5UhA1UqwwuCDzkBXscoJXv3KRSovIy2F8Y2w1UwRm6UuAGOMZMObT6_odqeIetNzhQRhc70dIaZqNbQeMxT2LyPU8IIq6w_lb2SZ4x24mU7i6_qrp3kKL7aK20SL0R0bQXjPdX67ERA1iUle0NrFcekJxNycq_QYjdyGLZrYTv5QuvkrkmzIH65Okfcxstzhb971-UKI8enzO7R_zG2HbFqfeq6u3GcGGszPmNdi73JJAU=w960-h640-no"
+        },
+        {
+          "id": 4,
+          "link": "https://lh3.googleusercontent.com/RJF3FlRv7omyuWzvMPv0pSrQUFfIr-8AJxOx3u3IU9zef8wJFHHc6cTYS1AUmpWxIT03DnJeINf0gsHUTQ9oU0XLZ2Xpo7VWh_JtQWWq1CDMhcd6WvTj6GyLWVaEWMkYJFVuNPrImUpih6U0HuSURXk-wMyPRyxmlPvsdoZ0XcbV3WtVR_ictf58KFB6Ls_8sV582GHVuHArHad6djjFVGkDA8islV_oN1SP-WCeeEHQ03O4GJSAaPhSxmFLiCuV5kWRSghU4Xpc0UZ72xDeSUdjAfXAtxqRyjl99ZZ39ZGphJ9GGlFFSL6tPTi7nKopGelq9flfYj5d-tDmZUE6HaprAdl_P8IS-utkpeT8YEzzD4gUCQ-ngMDlTyJlfwyNp5DQUEUAdXJcupbiWkMg4uspOTD7ciwZTwCCEBZK-tSKyuf3sTWHRe1-u0GCed8VLvgO9KGBUghBHUCJi64_37bIrAs4EO71bn4PVZNbL8LnDNUiket2INrlaWaAlgGFaFHjt5qqRkeq0oY14Ow_FyTuT8Rr9bvwK75k1tX21yGg59_Ta-JYAffcibY6ojHtJu3IAXVXKZziyqv8j9JMOpiioOlnCq3E6GdbaF7x5eQcfN4emlX9PvituOGB7ozWIuq6KAVXiFX7gUiAhWG1kdrv8LRKXWkYGPtaqbXia-b1dqLhAw4JHKTU=w960-h640-no"
+        },
+        {
+          "id": 5,
+          "link": "https://lh3.googleusercontent.com/HLL7U5oTuhBWrlYdVQaUU3Trg09SBjai0f6-mJC7ZBmVUhQc1IIYM6KuSKtoINnNv2mDS0EJo44WMHwkkWQQ6FPZr3goBmBJOyeNtYl9BErVWp0XVuM4rMcYW4he3Q8djur3jf0_ECawgC_mGkMwwOtPwKCoXcloufw61apAKlu_8jyKQvxI-GVHNaZxCwVyCC9tGUNbglrUoyLqYsHUMMn-IRzGFzT7sGMY7q8OX6Rdp6YX3Xk2WAOsW8jn1Z0q3TwNuJLs8fKDYn8RnmjxWHb5PWjkDi3NmbrXjJUZxrn7w_W1Ds3-FhU3z8yxNpHXYc8OE5x6GE7QLU2lg0V-VZFzKjQnTx5tSIlu8SVPls6ANjywoEJg91aE_gRXKPPwMwnAaP09ws5D_4K9wE8cppN6XUt8Sh9weSD5Zc-fOVCCjg6dUxabRyHfrtDBOI23VkhuVBEfb4ZFY6qDChYLP3bDgb4JpQ8foKUDEiJGeikvFO0WO8n1oEaElGJDc1jChjSX4LKjqO26Shm8cerkz5y7NI4JaC_1tsBEn04sjVBbKtIO1fMyfc0zM5MceQeu2CtTCdBvbfCiBoMGU5c0jt48Fit529Fl8s5cfLA85mlNICK1JFj5x6obp9bSqVw_KKW0gCYuxnTrZxOIPdhFGTf2CpScdsM-5J_Zae0VkRrUVSYBgC6VS-b6=w960-h640-no"
+        },
+        {
+          "id": 6,
+          "link": "https://lh3.googleusercontent.com/imb_T7aqCmj9on6fELMck9abM_oi5gPBzQmYVEH91TKZD25uuTUHdXcN89M_iVysbuT8IAAGfRR7CzM8xVqNmwOyaob0nwfTTWzQ-SCvoE97rfyCp5xmwp7BmNy3d2PO6Qn_Ygcp4jWIFl6JlSHXH2Yrbs292B6ffu0POYC8yqS5qrgZ0vIGJD_C2g3GK5q1HmNN0zEI4LYkgJ3qYYfdGO5S01l-jt9CUKYRZNMkZSX9P7xcx4A9tRf9WtsmrHBnAl4lk2gEcMERdeOzefRwl0UxV0MumGtWcL9PxZ2Lkx1Oe9uPejrIPiDdQXTx6L_9BHDKZuFwM1o6yOm37T291bNLU6xsEDGJnUQ9yAQnrQrvNo9sEz7IVLm6-uw2i6wTQyC9E_tg2t2A_bpSnkS8MwmBG41F3zSN7YmjREV6cY3tJ8vg71r2FGwyPyG3AK64qZSWyAQdBwPvI7kn_4yVPT2DOhVG-U2m7Juld3xhxzxIwbQEGOUGPQiwaMHwqr5pSR1vnXtxPdyF-1jgW1KOzlNVe74bCZ9RWfwdE9LJdXcpQ4hytw5Vcmp_VHMHuEuMnU-duHBE3J48jfJ6vn3CK4Iy3ZEs-SiV2KySMw9iDnOWrI2Ddg06uakxqruQKbsQ4WkzGTNIk1I1MdNmSmWUEZesaN8ZNk4RtvTjIRQ90ckRSAszg1rFtASI=w960-h640-no"
+        }
       ]
     },
     {
@@ -249,27 +368,44 @@
           "id": 1,
           "title": "Деливеринг React Native приложений конечному пользователю",
           "speaker": "Михаил Мащенко",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/uJJZBN0GfHzUGefhWEo7fpveuh-FnWUTPW6CgjGm6YzAYElEg3OnyGs6NpTiHI47jpiRyu0_76MobBrzo8T8mNR7XQu9fb2lav4ZGN0MSYLeShKHoUEr_rvlaV2CGaUAMimyordgexbEdCuLY9_e_EFe-zI0gn5TrkLL3lW7GZr04t0IRCld0vpmx6QIasVZgpy2e6BR9gUTUq4OxmIYnCiFJ_zUrrgk6pvqBLWeQp99iBJYXJieWRASQ8MWH8ooUc_40F66yuR1_HC4eV8FjKWqaHLTfkLC5_8TTthVTQv_8CL1Xb94Hau_wWjgNXTuFnEdtBPcitOAzofzO4p9iSOWgb3PpI5H6rZq2Xu3nnSbtlNvxMeHq7WvnvY0VcvbSkT7YR0kC7ACk9TFA8VWXXHK1pJj8ZheoRBJr5sfp3ABlPwwbXsvXTlwxYzASo6Iid4PcSTClLZ0oUaa5cx0Osks_Utb2EIGEbv6wG4ExoBFo4nmmUFuFZuUiHjZkWaX3s08qzU9OPZIssFfKRqYQ6eFUXEWcbEnBfgX6PKKy6MyxG-P0RUhl1UWlkqp96l2NCVj4-jCrdhX10JI3JpxpeUFceoD_jJRvi9KIGsoAUtrfPCZnfZdo0468oqJCkf5yhNJ2ASbPCIwfXc--F2lzulCpsw0ToyHwKRubf9Ep9xwqB-6vm1ieYBC=w717-h478-no",
           "slides": "https://docs.google.com/presentation/d/1rUoRe9FYVALOUqFdGeTqtP6J3dAj4krWsdw-J9jcdvw/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/691785594492470/"
         },
         {
           "id": 2,
-          "title": "Верстаем с \"ветерком\" - Tailwind CSS framework",
+          "title": "Верстаем с 'ветерком' - Tailwind CSS framework",
           "speaker": "Александр Сергиенко",
-          "photo": "http://u.to/8VNOEw",
+          "speakerPhoto": "https://lh3.googleusercontent.com/GYJ4rY4o_ImBf-uwFjbU6Lzev5JidQ8f1vItUxVCCnEMeM_g4btP7YQO7GKyQFShSpjgLxSsW0b_haZRzLWTYzA8nEmS3W_WJRj7gAKdHArqwtbT6K3qq8j2dtpv8xCGHH0BRSR3yELPNWR8IRRzgsSx8hEezQ5ttjhFG-3smkYkKT36nnKgxRq2Qw2WwjaPOcFVAqv9AClTGvf8AtltPQ3-bsOybOEOHLWcyFPZ5jmtd6Mli_rhZZsxMiUYSUP49d5td_Bhpn1mQftqb89LTAbHwLWM06z0ymGZx_Xdi35yWcWYZUniU_ECYvtAiPiP62M9Z7N_NwTM_DqdpZxYLzIk3n-VJqsKoregGCzDsD5lItxSty_5JA_ZzYdkE8OafxEM5itSAE8Kx24sWQYji-4xh3MkxXAn2G3TyIWl0zABXdagH4d5IrHWu8StoMeHnnWUD6bvW04_zV3wF_F9nByoQ4HknqgAlZUhEHvBcYW12uK5e6MUF1AJGIT0yaixSzsmiWuxli-HsF2RXErGAITpzX_8YUF6r5fLBXXQ3Kvw8zZUoz_BDxaa-mU7dQ5ZKEAw30HkWWf2adIUgqR3ihguQwkfL8ojf7JZKIU1lwToC5YfFYFPD3SmOoOGnE4pqtsaMzIQSV6-Hm6oQiiKnfmGwy5cJXvVk4Ghg9jVhkdaendN20TRTeSe=w717-h478-no",
           "slides": "https://docs.google.com/presentation/d/1EWjI2ughN0QP_mEi6N3mZW-8x2sM5c8QVr9iIr5L3lc/edit?usp=sharing",
           "video": "https://www.facebook.com/fridayjs/videos/691840457820317/"
         }
       ],
       "photos": [
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw",
-        "http://u.to/SjYzEw"
+        {
+          "id": 1,
+          "link": "https://lh3.googleusercontent.com/MPefxIy0eSL7OoHxVvulqM7_-OfHcfqLrCXMyawtOwwICElR9z39MxMt1Hv9rLRoHD4ZYg7qbeokM-tBgH9GlOWMnDAEQLepEQnsmWqFGSRmrcLPmOZ86PMPAxNDAGBjHdCYji40au1iTXtjExEMb1U2HlDYOOhoF5mrCqS7GTMHfA-UyqE4E2QcH3zZT3kZDzwpOnP7q4BfZWPX6iqnUrwC9yh4JBH4WjndTJMQaNryuiciLTCK0SH77uSnEOrHknF_FaLqmV9-XjhMUQf7L1rN-gepm03pDJLTxlLsIbwhjYz_ZOHwydD__l4tz8vRYWJbmf0QIzCE5vXmaEm6ynIAmbFua2UOihF9zAHECY6D2CMJauzIppfDCL8ULwaA5tRBcNKYtHQHEpF5AKcFaY5dLiIzt9Me6ZjinI3azX6IwYa8qGN0YcCFZOj_6-OFeLbunVMgPxeihcdhNcBR4FktYYcEjejmksiKWmKuq1f8j6ns5XDmQWW8vPXgK17oJ9DK9gBdHE60L_Kg66ZXGO7Qrq1P8WUSzHI5ITU55a84H4UZo6NIs3l8MybdGTXK-aOPCoaZKFmS7eLtIre68lq3MNPM8ChrUiW_iMt490VswNa0OlEXXWUt_ANAvRxDo0ZmGHzCkxJbLZatS_gH55wnypnWP5BytSu_IJcLGY1hiOYE2DfZKpae=w2064-h1376-no"
+        },
+        {
+          "id": 2,
+          "link": "https://lh3.googleusercontent.com/S78cWtjN6Mp61bkso2aUhBHrDhpOcJsFXh8LNmxjr0oVK2FmWPISYJqbjYyOVOVBGIu90nHIOqaaFcL-ZAuv3yBz9ljeCQAcfb1SpSk4PXhrOBWmn5TBgtLppCXsDxswrIfHeiH6iIpCUm7-YfB95XkbLZebQ3jXqEU-ayuZ5pi7priqFjnD_D50PewlAPpMcpKuSdEHi86TVNMLtj94jEnZTv7p_hrb5HKZ3XvOqcJnoOkJmhIaJo9Mcaa306pzhtlvU3NyHjZNzz3ZvZciAVvw9qNcJ9iPfaG_MvnqJl1HZ_xB_idtXi4UFqxIdpMC89SU4hbn89h69j7XyWcAU4883TiFFtx4c6Rbzvs7pzvnoy13hnPMJ-vRbiyIXhBezNQuaVJpx3v5QtVc5MMdbZu6YSR_2fQftAhWvj0XwPaeyU_b4jmFc7-G2SgNCGIwRpM5usCH64zcw_cSlFz2b6NFVPbkPy1nqeOBOma1J8e09iZRMY636W5gDk91WUmHIqpsKvGCQA8Em4iKve3xFVbnubaQSQSvGDw5VyUZtRLWVi79DhL_HdB9mFbZKCf0tc9kJLnWdXLNix5K2Zt0H9s7K4xeKGSz6ZPKuC240Pe4YlzcdLlPsGLVEXNDGdQW2lqzEvz1qGXDdmRZvv3nzadiTt07Cev--iOJtG76tPNUCiH7KMBwGmPx=w2064-h1376-no"
+        },
+        {
+          "id": 3,
+          "link": "https://lh3.googleusercontent.com/VpPWuBHpvHZxOlbfA9v_CVfAZlkOP6YzwIFfv60EB-MVE9tbSoTeNMhzVtVWDLEvxfNy8FIZx7XjnjCHxwZTjH0qaZbNrPosuYsLL0KFK3SuQ89XR12jOZguiDUMrmfYy5yMjlR-pmjcDf5ZxyWw2xoobK5Y8iyjNPuiAa8_yJi4ya0CDS9zHHHTqiQHYRtSRTNAMtwTrW9M1yvm7bvgcQZ7Yds84PZG-07MOwbTedO1n3MBGtVa71jPMKBt_TcFTKbeVKfgTb1nddkhL2Ww3xwGrZkTG04oF0owvXZ91WL0DlGYKSnZpnSSS0MM8YkRv4U3x5I2EEUIiHyEcwHtjK4r3-Kl2cd5KoliUnPdJt0ltO6O3LpwgHpEaCyFkdyfx9IiFHQUXghX6m3euNsSEHeysRyTrgJK8NCbc2I2qA-14TY2KsfSAJl1DkiKoVv9Ks0ivoiIcsJ92GaxjomzuB_IlLZiFOZifntFg8kJa-TvZybQsZs6Svnq2p-Pv_E6O-pkumJaT18i4H8XXkqVH6n7pjfJKSUu9fd2W7OKakRxvTnEm0093ej3BxYbi_cdX8saWr0Y_KF41nEA69os4QbmJq3KYYN45WS0AYNm22XNALOb3WBh1hr2p25PWWdzkYhvWUEm_JPehwgUV7fZcKy3zN6ptfwATgFhEPb1kCP-lh_2fxypQ91N=w2064-h1376-no"
+        },
+        {
+          "id": 4,
+          "link": "https://lh3.googleusercontent.com/GM2jl2VfHTt7qJ1sxJAei2VQLrQxJIRsDk9FE9m4PMAAsdmAGVuQxKAcmQIAkS78ZbaOUdgi-sPcbQPJ557z2Bm8yCoHjBhaej72T4uoL0kOH0tGdev7vrLe2v3E7WrUzZGtFV6ZOpQoqrhgdSlq6PTn1ZWcufeL_1KZ6VoWDB6076xjDRgHBople-lIWYXYrqpla4UujpC9FtdX5RHzrclK4PhiTVGDulf2EQO4UV1WxGwun99d2lN32HFPNfJ3E1QldwQHgtIWvaOKhVKq4F5Bdl16eCqA_OWBm0A2YDSAPKZ1nONU4LCskCFabOVEVF97s9kMnVN-xR6QWJu6285ceVdFESYQI46QUaP63v8k5xBwjPm3aD5wkmxLzEnD-GTlrw-PDfUK7_qSOnaPeoynkyTgzE9X4rQyTKc7sNrV_PMInte7jbe1GQ3iCpWyHyhZ9DhXHydNnsegv3UxZq19rGWlRxgUxMcku_8gXZz3tVvES2G4BO5bBwg9HzpR-BZlrYuXeO3idW2opNMU0lebF43TrTyscSdTVFHxucZ-N1up9Vtn8u2iXbXdw_9ACny_YRQGnuDsjt2SFK6QReFqVxIas8u1WjRhIMYKkodjLExlYI18TtHQve8aSJVTMxg5U8V93KmV9CpvCU1DeM8Wf3vaY-GYgAf_zl-FIscqlrfsxoJyMgIL=w2064-h1376-no"
+        },
+        {
+          "id": 5,
+          "link": "https://lh3.googleusercontent.com/7N7Cu4rgE5GsKuH0jHVFuPBCAlJz6da_AzB24657Dd-6TmRJDPqEMupvjtPg96rykWhrGk8_Q2R54yFEcJhX8_E8n7abmCNSS1AJ6GWFr1oURT8UP6OoE6NGWwdkUqqCwtWq2ElmpVEIBGqYAYM8_ap0MrDuXXQ15iH-B_W89ik8C09C8f5VFsAqjbGgboUKHcNfzzUjkPnvPF-03vqme3YGRthFSsCgGLw_BrMDYQboJOa_c2b32ZY_zHmzr8ShArJNVFKECdvVfIqZKg4x-g8MBqlV4JNlsy5KOrSe9EN_wOvnZDYBYGZbfTZxWI9XIikMGlpGsgMe9BvqvXcPEuunflE_YgSxwZWORuVn59lX5H3p63aZ8vzsktfhB6CBL3GAmUwvlROaxJuR5zdHk9BCwPa-8cznmwCzKfNmmd56MSCi63km9nqJpNQEqEw23J_KpqD5l-qLWTRfa-xM9I68oQIjXjo2s5LYRmg5aJPplmb00IZ7J7yZUsq-YYIJiIkRxpC5QMcmwYkZKzchnXEl0hSp1Sm_QgVoAytdJNRVJ123QO1oO2oX9ahKYlVXjQ1XtR9xDHDhnVM69298uSNMWWyZAIVJlbEDIEdnHu8zJ4sY29aZJtfC5xGB7LXSO83yZfzP34wJQoWeYPFN4zo_80548TF2NrXpKIco2B6jwNLBvmdLcxt4=w2064-h1376-no"
+        },
+        {
+          "id": 6,
+          "link": "https://lh3.googleusercontent.com/TjVBCsz6CW78QTB3BbYLiHNgkN3brio9CSM9-9vhLbzBwz-yRK_1ZPbxeqmpzKk1vZE1Ky1ZVK9UhwmLLXcXDxAgeMF5614TEcwJBnttKcZWWu2VbADY3tJfwGF1dSPx5O94DCu0cbBlUV-JfcW3TbT2a_MmhVWLV5GmxuPMQ4M3yxmn8MiuiwpY4BUK5uonUCyYx7dv_ZfmTryh64-n86qpIJtBM1wRrIkkWoy4rEKirpN4OESPwmC3uU_QIIy_lRVzEObaWaRHJbG694YighbcCXZpFzvoP6Vl7gtx8vJzpFtHFUxCx465Gq4ddC3ZN0CqWhO0H5tkFRNDJuoCD6l301M4lQQSlkiIX9V9uBdb5D8X1kZ1EnXzD7pfG5P-Ya7sLQItdFHkKpBpIz0fFGgDBWzQkWSaRN63-w0aAGb0EEFL8Sf6ShPsM5pFFfLnGW6Xzd1sdAaI3qVImMKjngDVvsrjtrTKYXNqZ0FUWpm_6P1VsfCIhMy6aUbElX1E1dE8yPza1gTNotNmur5Qso16XT4j4q23ENkySREZVSFZAeHEtT_TJ3i6OWvJ9o4V5uSxHIWwPJDPFtQlBPKxEb7D-pyOYxDz5pbLxkkYRlBvRQn3TEAJfYdVtO6BxX32lTxY0ZbM3XtISe_ZHOjMcyr5VmXAWv-ifW_AvLUvaVTc6bnON6rKUf7x=w2064-h1376-no"
+        }
       ]
     }
   ]

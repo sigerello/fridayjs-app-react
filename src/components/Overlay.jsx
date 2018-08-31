@@ -30,8 +30,8 @@ export class Overlay extends Component {
       <Fragment>
         <div className="overlay-backdrop"/>
         <div className="overlay-wrapper" ref={this.wrapper}>
+          <button className="overlay-close" onClick={this.close}>&times;</button>
           <div className="overlay-block" ref={this.block}>
-            <button className="close" onClick={this.close}>&times;</button>
             {this.props.children}
           </div>
         </div>
