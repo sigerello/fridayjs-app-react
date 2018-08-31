@@ -7,12 +7,13 @@ import {Loading} from './Loading'
 import {TopicsList} from './TopicsList'
 import {PhotosList} from './PhotosList'
 import {PhotosItem} from './PhotosItem'
+import {NotFound} from './NotFound'
 
 export class MeetupsItem extends Component {
   constructor(props) {
     super(props)
 
-    this.state = {meetup: null}
+    this.state = {meetup: null, error: false}
     this.loadData()
   }
 
@@ -20,9 +21,11 @@ export class MeetupsItem extends Component {
     let {match} = this.props
     let {meetupId} = match.params
 
-    this.setState({
-      meetup: await MeetupService.findOne(meetupId)
-    })
+    try {
+      this.setState({meetup: await MeetupService.findOne(meetupId)})
+    } catch(error) {
+      this.setState({error: true})
+    }
   }
 
   render() {
@@ -31,7 +34,11 @@ export class MeetupsItem extends Component {
 
     return (
       <TransitionGroup>
-        {!this.state.meetup && (
+        {this.state.error && (
+          <NotFound/>
+        )}
+
+        {!this.state.meetup && !this.state.error && (
           <CSSTransition key="loading" classNames="fade-in" timeout={300} appear={true}>
             <Loading/>
           </CSSTransition>
