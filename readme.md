@@ -2,11 +2,11 @@
 
     npm install
     
-#### Run dev-server
+#### Run dev-server (with HMR)
 
     npm run dev
     
-#### Make production build (with HMR)
+#### Make production build
 
     npm run prod-build
     
