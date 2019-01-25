@@ -5,31 +5,51 @@ import {CSSTransition, TransitionGroup} from 'react-transition-group'
 import {MeetupService} from '../lib/MeetupService'
 import {Loading} from './Loading'
 import {BgImage} from './BgImage'
+import {NotFound} from './NotFound'
 
 export class MeetupsList extends Component {
   constructor(props) {
     super(props)
 
-    this.state = {meetups: null}
+    this.state = {
+      meetups: null,
+      loading: false,
+      error: false,
+    }
+  }
+
+  componentDidMount() {
     this.loadData()
   }
 
   async loadData() {
-    this.setState({
-      meetups: await MeetupService.findAll(),
-    })
+    try {
+      this.setState({loading: true, meetups: null})
+
+      let meetups = await MeetupService.findAll()
+      this.setState({loading: false, meetups})
+
+    } catch (error) {
+      this.setState({loading: false, meetup: null, error: true})
+    }
   }
 
   render() {
+    let {meetups, loading, error} = this.state
+
     return (
       <TransitionGroup>
-        {!this.state.meetups && (
+        {error && (
+          <NotFound/>
+        )}
+
+        {loading && (
           <CSSTransition key="loading" classNames="fade-in" timeout={300} appear={true}>
             <Loading/>
           </CSSTransition>
         )}
 
-        {this.state.meetups && (
+        {meetups && (
           <CSSTransition key="meetups-list" classNames="fade-in" timeout={300} appear={true}>
             <div className="meetups-list">
               <div className="container-fluid">

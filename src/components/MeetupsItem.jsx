@@ -13,38 +13,58 @@ export class MeetupsItem extends Component {
   constructor(props) {
     super(props)
 
-    this.state = {meetup: null, error: false}
-    this.loadData()
+    this.state = {
+      meetup: null,
+      loading: false,
+      error: false,
+    }
   }
 
-  async loadData() {
-    let {match} = this.props
-    let {meetupId} = match.params
+  componentDidMount() {
+    let {meetupId} = this.props.match.params
 
+    this.loadData(meetupId)
+  }
+
+  componentDidUpdate(prevProps) {
+    let previousMeetupId = prevProps.match.params.meetupId
+    let meetupId = this.props.match.params.meetupId
+
+    if (meetupId !== previousMeetupId) {
+      this.loadData(meetupId)
+    }
+  }
+
+  async loadData(meetupId) {
     try {
-      this.setState({meetup: await MeetupService.findOne(meetupId)})
+      this.setState({loading: true, meetup: null})
+
+      let meetup = await MeetupService.findOne(meetupId)
+      this.setState({loading: false, meetup})
+
     } catch(error) {
-      this.setState({error: true})
+      this.setState({loading: false, meetup: null, error: true})
     }
   }
 
   render() {
     let {match, location} = this.props
     let currentUrl = match.url
+    let {meetup, loading, error} = this.state
 
     return (
       <TransitionGroup>
-        {this.state.error && (
+        {error && (
           <NotFound/>
         )}
 
-        {!this.state.meetup && !this.state.error && (
+        {loading && (
           <CSSTransition key="loading" classNames="fade-in" timeout={300} appear={true}>
             <Loading/>
           </CSSTransition>
         )}
 
-        {this.state.meetup && (
+        {meetup && (
           <CSSTransition key="meetups-item" classNames="fade-in" timeout={300} appear={true}>
             <div className="meetups-item">
               <div className="container">

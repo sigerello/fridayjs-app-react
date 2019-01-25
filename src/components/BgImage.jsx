@@ -13,8 +13,10 @@ export class BgImage extends Component {
     let image = new Image()
 
     image.onload = () => {
-      this.el.current.style.backgroundImage = `url(${src})`
-      this.el.current.style.opacity = 1
+      if (this.el.current) {
+        this.el.current.style.backgroundImage = `url(${src})`
+        this.el.current.style.opacity = 1
+      }
     }
 
     image.src = src
